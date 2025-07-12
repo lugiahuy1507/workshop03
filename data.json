@@ -1,0 +1,818 @@
+[
+  {
+    "eid": "PHONE0001",
+    "title": "iPhone 16 Pro Max 256GB | VN/A",
+    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, Natural Titanium, 4676 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1181.31,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0002",
+    "title": "iPhone 16 Pro Max 256GB | VN/A",
+    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, Black Titanium, 4676 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1181.31,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0003",
+    "title": "iPhone 16 Pro Max 256GB | VN/A",
+    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, White Titanium, 4676 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1181.31,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0004",
+    "title": "iPhone 16 Pro Max 256GB | VN/A",
+    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, Desert Titanium, 4676 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1181.31,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0005",
+    "title": "iPhone 16 Pro Max 512GB | VN/A",
+    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, Natural Titanium, 4676 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1434.81,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0006",
+    "title": "iPhone 16 Pro Max 512GB | VN/A",
+    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, Black Titanium, 4676 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1434.81,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0007",
+    "title": "iPhone 16 Pro Max 512GB | VN/A",
+    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, White Titanium, 4676 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1434.81,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0008",
+    "title": "iPhone 16 Pro Max 512GB | VN/A",
+    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, Desert Titanium, 4676 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1434.81,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0009",
+    "title": "iPhone 16 Pro Max 1TB | VN/A",
+    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, Natural Titanium, 4676 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1664.91,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0010",
+    "title": "iPhone 16 Pro Max 1TB | VN/A",
+    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, Black Titanium, 4676 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1664.91,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0011",
+    "title": "iPhone 16 Pro Max 1TB | VN/A",
+    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, White Titanium, 4676 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1664.91,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0012",
+    "title": "iPhone 16 Pro Max 1TB | VN/A",
+    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, Desert Titanium, 4676 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1664.91,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0013",
+    "title": "iPhone 16 Pro 256GB | VN/A",
+    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, Natural Titanium, 3355 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1111.11,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0014",
+    "title": "iPhone 16 Pro 256GB | VN/A",
+    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, Black Titanium, 3355 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1111.11,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0015",
+    "title": "iPhone 16 Pro 256GB | VN/A",
+    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, White Titanium, 3355 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1111.11,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0016",
+    "title": "iPhone 16 Pro 256GB | VN/A",
+    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, Desert Titanium, 3355 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1111.11,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0017",
+    "title": "iPhone 16 Pro 512GB | VN/A",
+    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, Natural Titanium, 3355 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1352.91,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0018",
+    "title": "iPhone 16 Pro 512GB | VN/A",
+    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, Black Titanium, 3355 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1352.91,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0019",
+    "title": "iPhone 16 Pro 512GB | VN/A",
+    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, White Titanium, 3355 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1352.91,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0020",
+    "title": "iPhone 16 Pro 512GB | VN/A",
+    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, Desert Titanium, 3355 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1352.91,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0021",
+    "title": "iPhone 16 Pro 1TB | VN/A",
+    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, Natural Titanium, 3355 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1540.11,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0022",
+    "title": "iPhone 16 Pro 1TB | VN/A",
+    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, Black Titanium, 3355 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1540.11,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0023",
+    "title": "iPhone 16 Pro 1TB | VN/A",
+    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, White Titanium, 3355 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1540.11,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0024",
+    "title": "iPhone 16 Pro 1TB | VN/A",
+    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, Desert Titanium, 3355 mAh",
+    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
+    "price": 1540.11,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0025",
+    "title": "iPhone 14 128GB | VN/A",
+    "specs": "Apple, 6.1 inches, OLED, Memory 128 GB, RAM 6GB, Apple A15 Bionic, Black, 3279 mAh",
+    "usage": "Communication, entertainment, and productivity",
+    "price": 494.91,
+    "year": 2022
+  },
+  {
+    "eid": "PHONE0026",
+    "title": "iPhone 14 128GB | VN/A",
+    "specs": "Apple, 6.1 inches, OLED, Memory 128 GB, RAM 6GB, Apple A15 Bionic, White, 3279 mAh",
+    "usage": "Communication, entertainment, and productivity",
+    "price": 498.81,
+    "year": 2022
+  },
+  {
+    "eid": "PHONE0027",
+    "title": "iPhone 14 128GB | VN/A",
+    "specs": "Apple, 6.1 inches, OLED, Memory 128 GB, RAM 6GB, Apple A15 Bionic, Blue, 3279 mAh",
+    "usage": "Communication, entertainment, and productivity",
+    "price": 498.81,
+    "year": 2022
+  },
+  {
+    "eid": "PHONE0028",
+    "title": "iPhone 14 128GB | VN/A",
+    "specs": "Apple, 6.1 inches, OLED, Memory 128 GB, RAM 6GB, Apple A15 Bionic, Red, 3279 mAh",
+    "usage": "Communication, entertainment, and productivity",
+    "price": 487.11,
+    "year": 2022
+  },
+  {
+    "eid": "PHONE0029",
+    "title": "iPhone 14 128GB | VN/A",
+    "specs": "Apple, 6.1 inches, OLED, Memory 128 GB, RAM 6GB, Apple A15 Bionic, Yellow, 3279 mAh",
+    "usage": "Communication, entertainment, and productivity",
+    "price": 487.11,
+    "year": 2022
+  },
+  {
+    "eid": "PHONE0030",
+    "title": "iPhone 14 128GB | VN/A",
+    "specs": "Apple, 6.1 inches, OLED, Memory 128 GB, RAM 6GB, Apple A15 Bionic, Purple, 3279 mAh",
+    "usage": "Communication, entertainment, and productivity",
+    "price": 487.11,
+    "year": 2022
+  },
+  {
+    "eid": "PHONE0031",
+    "title": "iPhone 15 128GB | VN/A",
+    "specs": "Apple, 6.1 inches, Super Retina XDR OLED, Memory 128 GB, RAM 6GB, Apple A16 Bionic, Yellow, 3349 mAh",
+    "usage": "Communication, entertainment, and productivity",
+    "price": 600.21,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0032",
+    "title": "iPhone 15 128GB | VN/A",
+    "specs": "Apple, 6.1 inches, Super Retina XDR OLED, Memory 128 GB, RAM 6GB, Apple A16 Bionic, Green, 3349 mAh",
+    "usage": "Communication, entertainment, and productivity",
+    "price": 608.01,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0033",
+    "title": "iPhone 15 128GB | VN/A",
+    "specs": "Apple, 6.1 inches, Super Retina XDR OLED, Memory 128 GB, RAM 6GB, Apple A16 Bionic, Pink, 3349 mAh",
+    "usage": "Communication, entertainment, and productivity",
+    "price": 608.01,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0034",
+    "title": "iPhone 15 128GB | VN/A",
+    "specs": "Apple, 6.1 inches, Super Retina XDR OLED, Memory 128 GB, RAM 6GB, Apple A16 Bionic, Black, 3349 mAh",
+    "usage": "Communication, entertainment, and productivity",
+    "price": 608.01,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0035",
+    "title": "iPhone 15 128GB | VN/A",
+    "specs": "Apple, 6.1 inches, Super Retina XDR OLED, Memory 128 GB, RAM 6GB, Apple A16 Bionic, Blue, 3349 mAh",
+    "usage": "Communication, entertainment, and productivity",
+    "price": 608.01,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0036",
+    "title": "Samsung Galaxy S25 Ultra 12GB 256GB",
+    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 256 GB, RAM 12GB, Snapdragon 8 Elite, Grey, 5000 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 1111.11,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0037",
+    "title": "Samsung Galaxy S25 Ultra 12GB 256GB",
+    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 256 GB, RAM 12GB, Snapdragon 8 Elite, Blue, 5000 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 1111.11,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0038",
+    "title": "Samsung Galaxy S25 Ultra 12GB 256GB",
+    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 256 GB, RAM 12GB, Snapdragon 8 Elite, Black, 5000 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 1111.11,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0039",
+    "title": "Samsung Galaxy S25 Ultra 12GB 256GB",
+    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 256 GB, RAM 12GB, Snapdragon 8 Elite, White, 5000 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 1111.11,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0040",
+    "title": "Samsung Galaxy S25 Ultra 512GB",
+    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 512 GB, RAM 12GB, Snapdragon 8 Elite, White, 5000 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 1208.61,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0041",
+    "title": "Samsung Galaxy S25 Ultra 512GB",
+    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 512 GB, RAM 12GB, Snapdragon 8 Elite, Grey, 5000 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 1208.61,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0042",
+    "title": "Samsung Galaxy S25 Ultra 512GB",
+    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 512 GB, RAM 12GB, Snapdragon 8 Elite, Black, 5000 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 1208.61,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0043",
+    "title": "Samsung Galaxy S25 Ultra 512GB",
+    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 512 GB, RAM 12GB, Snapdragon 8 Elite, Blue, 5000 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 1208.61,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0044",
+    "title": "Samsung Galaxy S25 Ultra 1TB",
+    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 1 TB, RAM 12GB, Snapdragon 8 Elite, Blue, 5000 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 1384.11,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0045",
+    "title": "Samsung Galaxy S25 Ultra 1TB",
+    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 1 TB, RAM 12GB, Snapdragon 8 Elite, Black, 5000 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 1384.11,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0046",
+    "title": "Samsung Galaxy S25 Ultra 1TB",
+    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 1 TB, RAM 12GB, Snapdragon 8 Elite, White, 5000 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 1384.11,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0047",
+    "title": "Samsung Galaxy S25 Ultra 1TB",
+    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 1 TB, RAM 12GB, Snapdragon 8 Elite, Grey, 5000 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 1384.11,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0048",
+    "title": "Samsung Galaxy A06 4GB 128GB",
+    "specs": "Samsung, 6.7 inches, PLS LCD, Memory 128 GB, RAM 4GB, MediaTek Helio G85, Black, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 114.27,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0049",
+    "title": "Samsung Galaxy A06 4GB 128GB",
+    "specs": "Samsung, 6.7 inches, PLS LCD, Memory 128 GB, RAM 4GB, MediaTek Helio G85, Blue, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 114.27,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0050",
+    "title": "Samsung Galaxy A06 4GB 128GB",
+    "specs": "Samsung, 6.7 inches, PLS LCD, Memory 128 GB, RAM 4GB, MediaTek Helio G85, Green, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 114.27,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0051",
+    "title": "Samsung Galaxy A06 5G 4GB 128GB",
+    "specs": "Samsung, 6.7 inches, PLS LCD, Memory 128 GB, RAM 4GB, MediaTek Dimensity 6300, Black, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 133.38,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0052",
+    "title": "Samsung Galaxy A06 5G 4GB 128GB",
+    "specs": "Samsung, 6.7 inches, PLS LCD, Memory 128 GB, RAM 4GB, MediaTek Dimensity 6300, Blue, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 133.38,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0053",
+    "title": "Samsung Galaxy A06 5G 4GB 128GB",
+    "specs": "Samsung, 6.7 inches, PLS LCD, Memory 128 GB, RAM 4GB, MediaTek Dimensity 6300, Green, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 133.38,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0054",
+    "title": "OPPO A58 4G 6GB 128GB",
+    "specs": "OPPO, 6.72 inches, IPS LCD, Memory 128 GB, RAM 6GB, Helio G85, Green, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 167.31,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0055",
+    "title": "OPPO A58 4G 6GB 128GB",
+    "specs": "OPPO, 6.72 inches, IPS LCD, Memory 128 GB, RAM 6GB, Helio G85, Black, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 167.31,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0056",
+    "title": "OPPO A58 8GB 128GB",
+    "specs": "OPPO, 6.72 inches, IPS LCD, Memory 128 GB, RAM 8GB, Helio G85, Black, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 175.5,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0057",
+    "title": "OPPO A58 8GB 128GB",
+    "specs": "OPPO, 6.72 inches, IPS LCD, Memory 128 GB, RAM 8GB, Helio G85, Black, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 175.5,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0058",
+    "title": "OPPO A3 8GB 256GB",
+    "specs": "OPPO, 6.67 inches, LCD, Memory 256 GB, RAM 8GB, Snapdragon 6s 4G Gen1, White, 5100 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 221.52,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0059",
+    "title": "OPPO A3 8GB 256GB",
+    "specs": "OPPO, 6.67 inches, LCD, Memory 256 GB, RAM 8GB, Snapdragon 6s 4G Gen1, Black, 5100 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 221.52,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0060",
+    "title": "Xiaomi Redmi Note 13 Pro 4G 8GB 128GB",
+    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 128 GB, RAM 8GB, MediaTek Helio G99-Ultra, Purple, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 225.81,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0061",
+    "title": "Xiaomi Redmi Note 13 Pro 4G 8GB 128GB",
+    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 128 GB, RAM 8GB, MediaTek Helio G99-Ultra, Black, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 225.81,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0062",
+    "title": "Xiaomi Redmi Note 13 Pro 4G 8GB 128GB",
+    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 128 GB, RAM 8GB, MediaTek Helio G99-Ultra, Green, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 225.81,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0063",
+    "title": "Xiaomi Redmi Note 13 Pro 5G 8GB 256GB",
+    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 256 GB, RAM 8GB, MediaTek Helio G99-Ultra, Purple, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 264.81,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0064",
+    "title": "Xiaomi Redmi Note 13 Pro 5G 8GB 256GB",
+    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 256 GB, RAM 8GB, MediaTek Helio G99-Ultra, Black, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 264.81,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0065",
+    "title": "Xiaomi Redmi Note 13 Pro 5G 8GB 256GB",
+    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 256 GB, RAM 8GB, MediaTek Helio G99-Ultra, Green, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 264.81,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0066",
+    "title": "Xiaomi POCO X7 5G 12GB 512GB",
+    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 512 GB, RAM 12GB, Powerful Dimensity 7300-Ultra, Green, 5110 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 311.61,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0067",
+    "title": "Xiaomi POCO X7 5G 12GB 512GB",
+    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 512 GB, RAM 12GB, Powerful Dimensity 7300-Ultra, Black, 5110 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 311.61,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0068",
+    "title": "Xiaomi POCO X7 5G 12GB 512GB",
+    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 512 GB, RAM 12GB, Powerful Dimensity 7300-Ultra, Grey, 5110 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 311.61,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0069",
+    "title": "OPPO Reno10 5G 8GB 256GB",
+    "specs": "OPPO, 6.67 inches, AMOLED, Memory 256 GB, RAM 8GB, MediaTek Dimensity 7050 5G, Grey, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 331.11,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0070",
+    "title": "OPPO Reno10 5G 8GB 256GB",
+    "specs": "OPPO, 6.67 inches, AMOLED, Memory 256 GB, RAM 8GB, MediaTek Dimensity 7050 5G, Blue, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 331.11,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0071",
+    "title": "OPPO Reno10 Pro+ 5G 12GB 256GB",
+    "specs": "OPPO, 6.74 inches, AMOLED, Memory 256 GB, RAM 12GB, Snapdragon 8 plus Gen 1, Grey, 4700 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 428.61,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0072",
+    "title": "OPPO Reno10 Pro+ 5G 12GB 256GB",
+    "specs": "OPPO, 6.74 inches, AMOLED, Memory 256 GB, RAM 12GB, Snapdragon 8 plus Gen 1, Purple, 4700 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 428.61,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0073",
+    "title": "OPPO Find X5 Pro 5G 12GB 256GB",
+    "specs": "OPPO, 6.7 inches, AMOLED, Memory 256 GB, RAM 12GB, Qualcomm Snapdragon 8 Gen 1, Black, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 526.11,
+    "year": 2022
+  },
+  {
+    "eid": "PHONE0074",
+    "title": "OPPO Find X5 Pro 5G 12GB 256GB",
+    "specs": "OPPO, 6.7 inches, AMOLED, Memory 256 GB, RAM 12GB, Qualcomm Snapdragon 8 Gen 1, White, 5000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 526.11,
+    "year": 2022
+  },
+  {
+    "eid": "PHONE0075",
+    "title": "OPPO Reno14 5G 12GB 256GB",
+    "specs": "OPPO, 6.59 inches, AMOLED, Memory 256 GB, RAM 12GB, MediaTek Dimensity 8350 5G, Green, 6000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 612.3,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0076",
+    "title": "OPPO Reno14 5G 12GB 256GB",
+    "specs": "OPPO, 6.59 inches, AMOLED, Memory 256 GB, RAM 12GB, MediaTek Dimensity 8350 5G, White, 6000 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 612.3,
+    "year": 2025
+  },
+  {
+    "eid": "PHONE0077",
+    "title": "OPPO Find N3 Flip 12GB 256GB",
+    "specs": "OPPO, 6.8 inches, AMOLED, Memory 256 GB, RAM 12GB, MediaTek Dimensity 9200, Black, 4300 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 627.12,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0078",
+    "title": "OPPO Find N3 Flip 12GB 256GB",
+    "specs": "OPPO, 6.8 inches, AMOLED, Memory 256 GB, RAM 12GB, MediaTek Dimensity 9200, Yellow, 4300 mAh",
+    "usage": "Smooth gaming, video streaming, and social media browsing",
+    "price": 627.12,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0079",
+    "title": "OPPO Find X8 16GB 512GB",
+    "specs": "OPPO, 6.59 inches, AMOLED, Memory 512 GB, RAM 16GB, MediaTek Dimensity 9400, Black, 5630 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 841.62,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0080",
+    "title": "OPPO Find X8 16GB 512GB",
+    "specs": "OPPO, 6.59 inches, AMOLED, Memory 512 GB, RAM 16GB, MediaTek Dimensity 9400, Grey, 5630 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 841.62,
+    "year": 2024
+  },
+  {
+    "eid": "PHONE0081",
+    "title": "OPPO Find N3 16GB 512GB",
+    "specs": "OPPO, 7.82 inches, AMOLED, Memory 512 GB, RAM 16GB, Snapdragon 8 Gen 2, Black, 4805 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 1150.11,
+    "year": 2023
+  },
+  {
+    "eid": "PHONE0082",
+    "title": "OPPO Find N3 16GB 512GB",
+    "specs": "OPPO, 7.82 inches, AMOLED, Memory 512 GB, RAM 16GB, Snapdragon 8 Gen 2, White, 4805 mAh",
+    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
+    "price": 1150.11,
+    "year": 2023
+  },
+  {
+    "eid": "LAP001",
+    "title": "Apple MacBook Pro M3",
+    "specs": "Apple M3 chip, 16GB RAM, 1TB SSD, 14-inch Retina Display",
+    "usage": "Video editing, software development",
+    "price": 1999,
+    "year": 2024
+  },
+  {
+    "eid": "LAP002",
+    "title": "HP Spectre x360 OLED",
+    "specs": "Intel Core i7, 16GB RAM, 1TB SSD, 13.5-inch OLED Touch Display",
+    "usage": "Office work, creative writing, presentations",
+    "price": 1499,
+    "year": 2024
+  },
+  {
+    "eid": "LAP003",
+    "title": "ASUS TUF Gaming F15",
+    "specs": "Intel Core i7, NVIDIA RTX 4060, 16GB RAM, 1TB SSD",
+    "usage": "Gaming, school, programming",
+    "price": 1299,
+    "year": 2023
+  },
+  {
+    "eid": "LAP004",
+    "title": "Lenovo Yoga 9i",
+    "specs": "Intel Core i7, 16GB RAM, 1TB SSD, 14-inch 4K Touch Display",
+    "usage": "Multimedia, business travel",
+    "price": 1399,
+    "year": 2024
+  },
+  {
+    "eid": "LAP005",
+    "title": "Acer Nitro 5",
+    "specs": "AMD Ryzen 7, NVIDIA RTX 3060, 16GB RAM, 512GB SSD",
+    "usage": "Mid-range gaming, school",
+    "price": 1099,
+    "year": 2023
+  },
+  {
+    "eid": "LAP006",
+    "title": "Dell Inspiron 14",
+    "specs": "Intel Core i5, 8GB RAM, 512GB SSD, 14-inch FHD Display",
+    "usage": "Students, basic productivity",
+    "price": 699,
+    "year": 2023
+  },
+  {
+    "eid": "LAP007",
+    "title": "Microsoft Surface Pro 9",
+    "specs": "Intel Core i5, 16GB RAM, 256GB SSD, 13-inch Touchscreen",
+    "usage": "Note-taking, travel, office",
+    "price": 1299,
+    "year": 2024
+  },
+  {
+    "eid": "LAP008",
+    "title": "Gigabyte AERO 16 OLED",
+    "specs": "Intel Core i9, NVIDIA RTX 4070, 32GB RAM, 1TB SSD",
+    "usage": "3D rendering, video production",
+    "price": 2399,
+    "year": 2024
+  },
+  {
+    "eid": "LAP009",
+    "title": "MSI Prestige 14 Evo",
+    "specs": "Intel Core i7, 16GB RAM, 512GB SSD, 14-inch FHD Display",
+    "usage": "Coding, presentations, design",
+    "price": 1099,
+    "year": 2024
+  },
+  {
+    "eid": "LAP010",
+    "title": "Samsung Galaxy Book3 Pro",
+    "specs": "Intel Core i7, 16GB RAM, 1TB SSD, 16-inch AMOLED Display",
+    "usage": "Multimedia, remote work",
+    "price": 1599,
+    "year": 2024
+  },
+  {
+    "eid": "LAP011",
+    "title": "Dell Alienware m16",
+    "specs": "Intel Core i9, NVIDIA RTX 4090, 32GB RAM, 2TB SSD",
+    "usage": "Ultra gaming, streaming, AI training",
+    "price": 3499,
+    "year": 2024
+  },
+  {
+    "eid": "LAP012",
+    "title": "HP Pavilion Plus 14",
+    "specs": "Intel Core i5, 16GB RAM, 512GB SSD, 14-inch OLED Display",
+    "usage": "Students, content creation",
+    "price": 849,
+    "year": 2023
+  },
+  {
+    "eid": "LAP013",
+    "title": "Lenovo Legion Pro 7i",
+    "specs": "Intel Core i9, NVIDIA RTX 4080, 32GB RAM, 1TB SSD",
+    "usage": "Gaming, heavy rendering",
+    "price": 2799,
+    "year": 2024
+  },
+  {
+    "eid": "LAP014",
+    "title": "ASUS ZenBook S13 OLED",
+    "specs": "Intel Core i7, 16GB RAM, 512GB SSD, 13.3-inch OLED Display",
+    "usage": "Portable work, business trips",
+    "price": 1199,
+    "year": 2024
+  },
+  {
+    "eid": "LAP015",
+    "title": "Acer Chromebook Spin 714",
+    "specs": "Intel Core i5, 8GB RAM, 256GB SSD, 14-inch Touch Display",
+    "usage": "Students, web apps, online classes",
+    "price": 649,
+    "year": 2023
+  },
+  {
+    "eid": "LAP016",
+    "title": "Framework Laptop 13",
+    "specs": "Intel Core i7, 16GB RAM, 512GB SSD, 13.5-inch Display",
+    "usage": "Developers, Linux users, repairable design",
+    "price": 1049,
+    "year": 2024
+  },
+  {
+    "eid": "LAP017",
+    "title": "LG Gram 17",
+    "specs": "Intel Core i7, 16GB RAM, 1TB SSD, 17-inch WQXGA Display",
+    "usage": "Productivity, spreadsheets, finance",
+    "price": 1599,
+    "year": 2024
+  },
+  {
+    "eid": "LAP018",
+    "title": "HP Omen Transcend 16",
+    "specs": "Intel Core i9, NVIDIA RTX 4080, 32GB RAM, 1TB SSD",
+    "usage": "Gaming, VR development",
+    "price": 2899,
+    "year": 2024
+  },
+  {
+    "eid": "LAP019",
+    "title": "ASUS Vivobook 15",
+    "specs": "AMD Ryzen 5, 8GB RAM, 512GB SSD, 15.6-inch FHD Display",
+    "usage": "Students, entry-level work",
+    "price": 549,
+    "year": 2023
+  },
+  {
+    "eid": "LAP020",
+    "title": "Razer Blade 14",
+    "specs": "AMD Ryzen 9, NVIDIA RTX 4070, 16GB RAM, 1TB SSD",
+    "usage": "Gaming, streaming, portability",
+    "price": 2199,
+    "year": 2024
+  }
+]
