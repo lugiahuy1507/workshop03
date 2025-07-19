@@ -72,7 +72,7 @@ def handle_user_input(user_input: str, chat_app):
         st.session_state.conversation = state["conversation"]
     except Exception as e:
         st.session_state.conversation.append(
-            AIMessage(content="⚠️ Sorry, something went wrong.")
+            AIMessage(content="⚠️ Sorry, something went wrong.\n" + str(e) + " Please try again later.")
         )
 
 
@@ -114,6 +114,13 @@ def main():
     chat_app = define_workflow()
     display_chat_interface(chat_app)
 
+
+    from IPython import display
+
+    # display(Image(chat_app.get_graph().draw_mermaid_png()))
+    # Save image to a file
+    with open("workflow_graph_2.png", "wb") as f:
+        f.write(chat_app.get_graph().draw_mermaid_png())
 
 if __name__ == "__main__":
     main()
