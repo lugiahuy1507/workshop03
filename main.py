@@ -18,9 +18,13 @@ from typing import TypedDict, Annotated
 from langgraph.graph.message import add_messages
 from langchain_core.documents import Document
 from langgraph.graph import StateGraph, END
+from langchain_tavily import TavilySearch
 
 
 os.environ["OPENAI_API_KEY"] = "sk-apxTWWhdEMvQr1PMX3Wy1Q"
+os.environ["TAVILY_API_KEY"] = "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"
+
+tavily_api = TavilySearch()
 
 llm = ChatOpenAI(
     model="GPT-4o-mini",
@@ -49,6 +53,10 @@ message_history = [
     SystemMessage(
         content="You are a helpful assistant helping users pick laptops or phones.")
 ]
+
+
+def search_web(query: str) -> str:
+    return tavily_api.run(query)
 
 
 def create_vectors(vector_store, laptops, namespace):
@@ -140,6 +148,13 @@ def format_docs(docs):
     return "\n".join([
         f"{doc.metadata['title']} – {', '.join(doc.metadata['specs'])} – for {doc.metadata['usage']} – ${doc.metadata['price']} – released in {doc.metadata['year']}"
         for doc in docs
+    ])
+
+
+def format_web_info(web_infos):
+    return "\n".join([
+        f"Url:{web_info['url']} – Title:{web_info['title']} – - Content:{web_info['content']} – Score:${web_info['score']}"
+        for web_info in web_infos
     ])
 
 
@@ -244,13 +259,12 @@ class ChatState(TypedDict):
     user_query: str
     last_filter: dict
     current_step: str
+    web_search: str
 
 
 def extract_filter_node(state: ChatState) -> ChatState:
     query = state["conversation"][-1].content
-    print(f"query {query}")
     filter_dict = extract_filter_from_query(query)
-    print(f"filter_dict {filter_dict}")
     state["user_query"] = query
     state["last_filter"] = filter_dict
     state["current_step"] = "retrieve"
@@ -262,6 +276,15 @@ def retrieve_node(state: ChatState) -> ChatState:
     retriever = retrieve(vector_store, top_k=3, filter=state["last_filter"])
     docs = retriever.invoke(state["user_query"])
     state["retrieved_docs"] = docs
+    state["current_step"] = "tavily_search"
+    return state
+
+
+def tavily_search_node(state: ChatState) -> ChatState:
+    query = state["user_query"]
+    web_result = search_web(query)
+    # save result for use in generate_answer
+    state["web_search"] = web_result["results"][:2]  # type: ignore
     state["current_step"] = "generate_answer"
     return state
 
@@ -280,14 +303,19 @@ qa_template = PromptTemplate.from_template("""
 
         Here are the most relevant options I found:
         {laptop_context}
+        
+        Web search information from TavilySearch:
+        {web_info}
 
         ---
 
         Instructions:
-        - If the user's request is unclear, just a greeting (e.g., "hello", "hi", "how are you"), or not specific to laptops/phones, respond in a warm and welcoming way and ask them to tell you more about what they're looking for.
-        - If none of the laptops/cellphones in the context really match the user's request, be honest and say:
-        > "I couldn’t find an exact match, but here are a few options that might still interest you!"
-        - Otherwise, explain why each option could be suitable, and then **recommend one as the best fit**.
+        - If the user's message is a general greeting (e.g., "hello", "hi", "how are you") or too vague, reply warmly and ask them for more details about what they're looking for in a laptop or cellphone.
+        - If both local context and web info are available, blend them naturally in your answer.
+        - If local context doesn't directly match the request, use insights from the **web_info** to complement and enrich your recommendations — but **don’t mention any lack of data**.
+        - If web_info includes additional specs, reviews, or options, feel free to include them to enhance your response.
+        - Clearly explain why each option is relevant.
+        - End by confidently recommending **one device as the best fit**, using a friendly, helpful tone — as if you're giving advice to a friend.
 
         Use a friendly tone and speak like you're helping a friend shop.
     """)
@@ -296,7 +324,7 @@ qa_template = PromptTemplate.from_template("""
 def generate_answer_node(state: ChatState) -> ChatState:
     query = state["user_query"]
     docs = state["retrieved_docs"]
-
+    web_info = state["web_search"]
     # Format docs and message history
     formatted_docs = format_docs(docs)
     formatted_history = "\n".join(
@@ -304,9 +332,12 @@ def generate_answer_node(state: ChatState) -> ChatState:
         for m in state["conversation"]
     )
 
+    print(f"web_info {format_web_info(web_info)}")
+
     rag_chain = ({"laptop_context": lambda _: formatted_docs,
                   "user_query": RunnablePassthrough(),
                   "retrieve_result_history": lambda _: format_docs(docs),
+                  "web_info": lambda _: format_web_info(web_info),
                   "history": lambda _: formatted_history}) | qa_template | llm
 
     response = rag_chain.invoke(query).content
@@ -323,11 +354,13 @@ def define_workflow():
     graph = StateGraph(ChatState)
     graph.add_node("extract_filter", extract_filter_node)
     graph.add_node("retrieve", retrieve_node)
+    graph.add_node("tavily_search", tavily_search_node)
     graph.add_node("generate_answer", generate_answer_node)
 
     graph.set_entry_point("extract_filter")
     graph.add_conditional_edges("extract_filter", route, ["retrieve"])
-    graph.add_conditional_edges("retrieve", route, ["generate_answer"])
+    graph.add_conditional_edges("retrieve", route, ["tavily_search"])
+    graph.add_conditional_edges("tavily_search", route, ["generate_answer"])
     graph.add_edge("generate_answer", END)
 
     return graph.compile()
