@@ -1,818 +1,1341 @@
 [
   {
-    "eid": "PHONE0001",
-    "title": "iPhone 16 Pro Max 256GB | VN/A",
-    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, Natural Titanium, 4676 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1181.31,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0002",
-    "title": "iPhone 16 Pro Max 256GB | VN/A",
-    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, Black Titanium, 4676 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1181.31,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0003",
-    "title": "iPhone 16 Pro Max 256GB | VN/A",
-    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, White Titanium, 4676 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1181.31,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0004",
-    "title": "iPhone 16 Pro Max 256GB | VN/A",
-    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, Desert Titanium, 4676 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1181.31,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0005",
-    "title": "iPhone 16 Pro Max 512GB | VN/A",
-    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, Natural Titanium, 4676 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1434.81,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0006",
-    "title": "iPhone 16 Pro Max 512GB | VN/A",
-    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, Black Titanium, 4676 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1434.81,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0007",
-    "title": "iPhone 16 Pro Max 512GB | VN/A",
-    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, White Titanium, 4676 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1434.81,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0008",
-    "title": "iPhone 16 Pro Max 512GB | VN/A",
-    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, Desert Titanium, 4676 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1434.81,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0009",
-    "title": "iPhone 16 Pro Max 1TB | VN/A",
-    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, Natural Titanium, 4676 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1664.91,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0010",
-    "title": "iPhone 16 Pro Max 1TB | VN/A",
-    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, Black Titanium, 4676 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1664.91,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0011",
-    "title": "iPhone 16 Pro Max 1TB | VN/A",
-    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, White Titanium, 4676 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1664.91,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0012",
-    "title": "iPhone 16 Pro Max 1TB | VN/A",
-    "specs": "Apple, 6.9 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, Desert Titanium, 4676 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1664.91,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0013",
-    "title": "iPhone 16 Pro 256GB | VN/A",
-    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, Natural Titanium, 3355 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1111.11,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0014",
-    "title": "iPhone 16 Pro 256GB | VN/A",
-    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, Black Titanium, 3355 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1111.11,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0015",
-    "title": "iPhone 16 Pro 256GB | VN/A",
-    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, White Titanium, 3355 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1111.11,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0016",
-    "title": "iPhone 16 Pro 256GB | VN/A",
-    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 256 GB, RAM 8GB, Apple A18 Pro, Desert Titanium, 3355 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1111.11,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0017",
-    "title": "iPhone 16 Pro 512GB | VN/A",
-    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, Natural Titanium, 3355 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1352.91,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0018",
-    "title": "iPhone 16 Pro 512GB | VN/A",
-    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, Black Titanium, 3355 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1352.91,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0019",
-    "title": "iPhone 16 Pro 512GB | VN/A",
-    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, White Titanium, 3355 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1352.91,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0020",
-    "title": "iPhone 16 Pro 512GB | VN/A",
-    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 512 GB, RAM 8GB, Apple A18 Pro, Desert Titanium, 3355 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1352.91,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0021",
-    "title": "iPhone 16 Pro 1TB | VN/A",
-    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, Natural Titanium, 3355 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1540.11,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0022",
-    "title": "iPhone 16 Pro 1TB | VN/A",
-    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, Black Titanium, 3355 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1540.11,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0023",
-    "title": "iPhone 16 Pro 1TB | VN/A",
-    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, White Titanium, 3355 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1540.11,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0024",
-    "title": "iPhone 16 Pro 1TB | VN/A",
-    "specs": "Apple, 6.3 inches, Super Retina XDR OLED, Memory 1 TB, RAM 8GB, Apple A18 Pro, Desert Titanium, 3355 mAh",
-    "usage": "Gaming, content creation, and professional work, everyday communication, entertainment, and accessibility",
-    "price": 1540.11,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0025",
-    "title": "iPhone 14 128GB | VN/A",
-    "specs": "Apple, 6.1 inches, OLED, Memory 128 GB, RAM 6GB, Apple A15 Bionic, Black, 3279 mAh",
-    "usage": "Communication, entertainment, and productivity",
-    "price": 494.91,
-    "year": 2022
-  },
-  {
-    "eid": "PHONE0026",
-    "title": "iPhone 14 128GB | VN/A",
-    "specs": "Apple, 6.1 inches, OLED, Memory 128 GB, RAM 6GB, Apple A15 Bionic, White, 3279 mAh",
-    "usage": "Communication, entertainment, and productivity",
-    "price": 498.81,
-    "year": 2022
-  },
-  {
-    "eid": "PHONE0027",
-    "title": "iPhone 14 128GB | VN/A",
-    "specs": "Apple, 6.1 inches, OLED, Memory 128 GB, RAM 6GB, Apple A15 Bionic, Blue, 3279 mAh",
-    "usage": "Communication, entertainment, and productivity",
-    "price": 498.81,
-    "year": 2022
-  },
-  {
-    "eid": "PHONE0028",
-    "title": "iPhone 14 128GB | VN/A",
-    "specs": "Apple, 6.1 inches, OLED, Memory 128 GB, RAM 6GB, Apple A15 Bionic, Red, 3279 mAh",
-    "usage": "Communication, entertainment, and productivity",
-    "price": 487.11,
-    "year": 2022
-  },
-  {
-    "eid": "PHONE0029",
-    "title": "iPhone 14 128GB | VN/A",
-    "specs": "Apple, 6.1 inches, OLED, Memory 128 GB, RAM 6GB, Apple A15 Bionic, Yellow, 3279 mAh",
-    "usage": "Communication, entertainment, and productivity",
-    "price": 487.11,
-    "year": 2022
-  },
-  {
-    "eid": "PHONE0030",
-    "title": "iPhone 14 128GB | VN/A",
-    "specs": "Apple, 6.1 inches, OLED, Memory 128 GB, RAM 6GB, Apple A15 Bionic, Purple, 3279 mAh",
-    "usage": "Communication, entertainment, and productivity",
-    "price": 487.11,
-    "year": 2022
-  },
-  {
-    "eid": "PHONE0031",
-    "title": "iPhone 15 128GB | VN/A",
-    "specs": "Apple, 6.1 inches, Super Retina XDR OLED, Memory 128 GB, RAM 6GB, Apple A16 Bionic, Yellow, 3349 mAh",
-    "usage": "Communication, entertainment, and productivity",
-    "price": 600.21,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0032",
-    "title": "iPhone 15 128GB | VN/A",
-    "specs": "Apple, 6.1 inches, Super Retina XDR OLED, Memory 128 GB, RAM 6GB, Apple A16 Bionic, Green, 3349 mAh",
-    "usage": "Communication, entertainment, and productivity",
-    "price": 608.01,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0033",
-    "title": "iPhone 15 128GB | VN/A",
-    "specs": "Apple, 6.1 inches, Super Retina XDR OLED, Memory 128 GB, RAM 6GB, Apple A16 Bionic, Pink, 3349 mAh",
-    "usage": "Communication, entertainment, and productivity",
-    "price": 608.01,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0034",
-    "title": "iPhone 15 128GB | VN/A",
-    "specs": "Apple, 6.1 inches, Super Retina XDR OLED, Memory 128 GB, RAM 6GB, Apple A16 Bionic, Black, 3349 mAh",
-    "usage": "Communication, entertainment, and productivity",
-    "price": 608.01,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0035",
-    "title": "iPhone 15 128GB | VN/A",
-    "specs": "Apple, 6.1 inches, Super Retina XDR OLED, Memory 128 GB, RAM 6GB, Apple A16 Bionic, Blue, 3349 mAh",
-    "usage": "Communication, entertainment, and productivity",
-    "price": 608.01,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0036",
-    "title": "Samsung Galaxy S25 Ultra 12GB 256GB",
-    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 256 GB, RAM 12GB, Snapdragon 8 Elite, Grey, 5000 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 1111.11,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0037",
-    "title": "Samsung Galaxy S25 Ultra 12GB 256GB",
-    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 256 GB, RAM 12GB, Snapdragon 8 Elite, Blue, 5000 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 1111.11,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0038",
-    "title": "Samsung Galaxy S25 Ultra 12GB 256GB",
-    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 256 GB, RAM 12GB, Snapdragon 8 Elite, Black, 5000 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 1111.11,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0039",
-    "title": "Samsung Galaxy S25 Ultra 12GB 256GB",
-    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 256 GB, RAM 12GB, Snapdragon 8 Elite, White, 5000 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 1111.11,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0040",
-    "title": "Samsung Galaxy S25 Ultra 512GB",
-    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 512 GB, RAM 12GB, Snapdragon 8 Elite, White, 5000 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 1208.61,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0041",
-    "title": "Samsung Galaxy S25 Ultra 512GB",
-    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 512 GB, RAM 12GB, Snapdragon 8 Elite, Grey, 5000 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 1208.61,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0042",
-    "title": "Samsung Galaxy S25 Ultra 512GB",
-    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 512 GB, RAM 12GB, Snapdragon 8 Elite, Black, 5000 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 1208.61,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0043",
-    "title": "Samsung Galaxy S25 Ultra 512GB",
-    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 512 GB, RAM 12GB, Snapdragon 8 Elite, Blue, 5000 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 1208.61,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0044",
-    "title": "Samsung Galaxy S25 Ultra 1TB",
-    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 1 TB, RAM 12GB, Snapdragon 8 Elite, Blue, 5000 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 1384.11,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0045",
-    "title": "Samsung Galaxy S25 Ultra 1TB",
-    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 1 TB, RAM 12GB, Snapdragon 8 Elite, Black, 5000 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 1384.11,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0046",
-    "title": "Samsung Galaxy S25 Ultra 1TB",
-    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 1 TB, RAM 12GB, Snapdragon 8 Elite, White, 5000 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 1384.11,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0047",
-    "title": "Samsung Galaxy S25 Ultra 1TB",
-    "specs": "Samsung, 6.9 inches, Dynamic AMOLED 2X, Memory 1 TB, RAM 12GB, Snapdragon 8 Elite, Grey, 5000 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 1384.11,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0048",
-    "title": "Samsung Galaxy A06 4GB 128GB",
-    "specs": "Samsung, 6.7 inches, PLS LCD, Memory 128 GB, RAM 4GB, MediaTek Helio G85, Black, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 114.27,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0049",
-    "title": "Samsung Galaxy A06 4GB 128GB",
-    "specs": "Samsung, 6.7 inches, PLS LCD, Memory 128 GB, RAM 4GB, MediaTek Helio G85, Blue, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 114.27,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0050",
-    "title": "Samsung Galaxy A06 4GB 128GB",
-    "specs": "Samsung, 6.7 inches, PLS LCD, Memory 128 GB, RAM 4GB, MediaTek Helio G85, Green, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 114.27,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0051",
-    "title": "Samsung Galaxy A06 5G 4GB 128GB",
-    "specs": "Samsung, 6.7 inches, PLS LCD, Memory 128 GB, RAM 4GB, MediaTek Dimensity 6300, Black, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 133.38,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0052",
-    "title": "Samsung Galaxy A06 5G 4GB 128GB",
-    "specs": "Samsung, 6.7 inches, PLS LCD, Memory 128 GB, RAM 4GB, MediaTek Dimensity 6300, Blue, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 133.38,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0053",
-    "title": "Samsung Galaxy A06 5G 4GB 128GB",
-    "specs": "Samsung, 6.7 inches, PLS LCD, Memory 128 GB, RAM 4GB, MediaTek Dimensity 6300, Green, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 133.38,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0054",
-    "title": "OPPO A58 4G 6GB 128GB",
-    "specs": "OPPO, 6.72 inches, IPS LCD, Memory 128 GB, RAM 6GB, Helio G85, Green, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 167.31,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0055",
-    "title": "OPPO A58 4G 6GB 128GB",
-    "specs": "OPPO, 6.72 inches, IPS LCD, Memory 128 GB, RAM 6GB, Helio G85, Black, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 167.31,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0056",
-    "title": "OPPO A58 8GB 128GB",
-    "specs": "OPPO, 6.72 inches, IPS LCD, Memory 128 GB, RAM 8GB, Helio G85, Black, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 175.5,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0057",
-    "title": "OPPO A58 8GB 128GB",
-    "specs": "OPPO, 6.72 inches, IPS LCD, Memory 128 GB, RAM 8GB, Helio G85, Black, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 175.5,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0058",
-    "title": "OPPO A3 8GB 256GB",
-    "specs": "OPPO, 6.67 inches, LCD, Memory 256 GB, RAM 8GB, Snapdragon 6s 4G Gen1, White, 5100 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 221.52,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0059",
-    "title": "OPPO A3 8GB 256GB",
-    "specs": "OPPO, 6.67 inches, LCD, Memory 256 GB, RAM 8GB, Snapdragon 6s 4G Gen1, Black, 5100 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 221.52,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0060",
-    "title": "Xiaomi Redmi Note 13 Pro 4G 8GB 128GB",
-    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 128 GB, RAM 8GB, MediaTek Helio G99-Ultra, Purple, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 225.81,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0061",
-    "title": "Xiaomi Redmi Note 13 Pro 4G 8GB 128GB",
-    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 128 GB, RAM 8GB, MediaTek Helio G99-Ultra, Black, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 225.81,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0062",
-    "title": "Xiaomi Redmi Note 13 Pro 4G 8GB 128GB",
-    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 128 GB, RAM 8GB, MediaTek Helio G99-Ultra, Green, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 225.81,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0063",
-    "title": "Xiaomi Redmi Note 13 Pro 5G 8GB 256GB",
-    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 256 GB, RAM 8GB, MediaTek Helio G99-Ultra, Purple, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 264.81,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0064",
-    "title": "Xiaomi Redmi Note 13 Pro 5G 8GB 256GB",
-    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 256 GB, RAM 8GB, MediaTek Helio G99-Ultra, Black, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 264.81,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0065",
-    "title": "Xiaomi Redmi Note 13 Pro 5G 8GB 256GB",
-    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 256 GB, RAM 8GB, MediaTek Helio G99-Ultra, Green, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 264.81,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0066",
-    "title": "Xiaomi POCO X7 5G 12GB 512GB",
-    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 512 GB, RAM 12GB, Powerful Dimensity 7300-Ultra, Green, 5110 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 311.61,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0067",
-    "title": "Xiaomi POCO X7 5G 12GB 512GB",
-    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 512 GB, RAM 12GB, Powerful Dimensity 7300-Ultra, Black, 5110 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 311.61,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0068",
-    "title": "Xiaomi POCO X7 5G 12GB 512GB",
-    "specs": "Xiaomi, 6.67 inches, AMOLED, Memory 512 GB, RAM 12GB, Powerful Dimensity 7300-Ultra, Grey, 5110 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 311.61,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0069",
-    "title": "OPPO Reno10 5G 8GB 256GB",
-    "specs": "OPPO, 6.67 inches, AMOLED, Memory 256 GB, RAM 8GB, MediaTek Dimensity 7050 5G, Grey, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 331.11,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0070",
-    "title": "OPPO Reno10 5G 8GB 256GB",
-    "specs": "OPPO, 6.67 inches, AMOLED, Memory 256 GB, RAM 8GB, MediaTek Dimensity 7050 5G, Blue, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 331.11,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0071",
-    "title": "OPPO Reno10 Pro+ 5G 12GB 256GB",
-    "specs": "OPPO, 6.74 inches, AMOLED, Memory 256 GB, RAM 12GB, Snapdragon 8 plus Gen 1, Grey, 4700 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 428.61,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0072",
-    "title": "OPPO Reno10 Pro+ 5G 12GB 256GB",
-    "specs": "OPPO, 6.74 inches, AMOLED, Memory 256 GB, RAM 12GB, Snapdragon 8 plus Gen 1, Purple, 4700 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 428.61,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0073",
-    "title": "OPPO Find X5 Pro 5G 12GB 256GB",
-    "specs": "OPPO, 6.7 inches, AMOLED, Memory 256 GB, RAM 12GB, Qualcomm Snapdragon 8 Gen 1, Black, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 526.11,
-    "year": 2022
-  },
-  {
-    "eid": "PHONE0074",
-    "title": "OPPO Find X5 Pro 5G 12GB 256GB",
-    "specs": "OPPO, 6.7 inches, AMOLED, Memory 256 GB, RAM 12GB, Qualcomm Snapdragon 8 Gen 1, White, 5000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 526.11,
-    "year": 2022
-  },
-  {
-    "eid": "PHONE0075",
-    "title": "OPPO Reno14 5G 12GB 256GB",
-    "specs": "OPPO, 6.59 inches, AMOLED, Memory 256 GB, RAM 12GB, MediaTek Dimensity 8350 5G, Green, 6000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 612.3,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0076",
-    "title": "OPPO Reno14 5G 12GB 256GB",
-    "specs": "OPPO, 6.59 inches, AMOLED, Memory 256 GB, RAM 12GB, MediaTek Dimensity 8350 5G, White, 6000 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 612.3,
-    "year": 2025
-  },
-  {
-    "eid": "PHONE0077",
-    "title": "OPPO Find N3 Flip 12GB 256GB",
-    "specs": "OPPO, 6.8 inches, AMOLED, Memory 256 GB, RAM 12GB, MediaTek Dimensity 9200, Black, 4300 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 627.12,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0078",
-    "title": "OPPO Find N3 Flip 12GB 256GB",
-    "specs": "OPPO, 6.8 inches, AMOLED, Memory 256 GB, RAM 12GB, MediaTek Dimensity 9200, Yellow, 4300 mAh",
-    "usage": "Smooth gaming, video streaming, and social media browsing",
-    "price": 627.12,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0079",
-    "title": "OPPO Find X8 16GB 512GB",
-    "specs": "OPPO, 6.59 inches, AMOLED, Memory 512 GB, RAM 16GB, MediaTek Dimensity 9400, Black, 5630 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 841.62,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0080",
-    "title": "OPPO Find X8 16GB 512GB",
-    "specs": "OPPO, 6.59 inches, AMOLED, Memory 512 GB, RAM 16GB, MediaTek Dimensity 9400, Grey, 5630 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 841.62,
-    "year": 2024
-  },
-  {
-    "eid": "PHONE0081",
-    "title": "OPPO Find N3 16GB 512GB",
-    "specs": "OPPO, 7.82 inches, AMOLED, Memory 512 GB, RAM 16GB, Snapdragon 8 Gen 2, Black, 4805 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 1150.11,
-    "year": 2023
-  },
-  {
-    "eid": "PHONE0082",
-    "title": "OPPO Find N3 16GB 512GB",
-    "specs": "OPPO, 7.82 inches, AMOLED, Memory 512 GB, RAM 16GB, Snapdragon 8 Gen 2, White, 4805 mAh",
-    "usage": "Photography, Videography, Gaming, Productivity, Multimedia",
-    "price": 1150.11,
-    "year": 2023
-  },
-  {
-    "eid": "LAP001",
-    "title": "Apple MacBook Pro M3",
-    "specs": "Apple M3 chip, 16GB RAM, 1TB SSD, 14-inch Retina Display",
-    "usage": "Video editing, software development",
-    "price": 1999,
-    "year": 2024
-  },
-  {
-    "eid": "LAP002",
-    "title": "HP Spectre x360 OLED",
-    "specs": "Intel Core i7, 16GB RAM, 1TB SSD, 13.5-inch OLED Touch Display",
-    "usage": "Office work, creative writing, presentations",
-    "price": 1499,
-    "year": 2024
-  },
-  {
-    "eid": "LAP003",
-    "title": "ASUS TUF Gaming F15",
-    "specs": "Intel Core i7, NVIDIA RTX 4060, 16GB RAM, 1TB SSD",
-    "usage": "Gaming, school, programming",
-    "price": 1299,
-    "year": 2023
-  },
-  {
-    "eid": "LAP004",
-    "title": "Lenovo Yoga 9i",
-    "specs": "Intel Core i7, 16GB RAM, 1TB SSD, 14-inch 4K Touch Display",
-    "usage": "Multimedia, business travel",
-    "price": 1399,
-    "year": 2024
-  },
-  {
-    "eid": "LAP005",
-    "title": "Acer Nitro 5",
-    "specs": "AMD Ryzen 7, NVIDIA RTX 3060, 16GB RAM, 512GB SSD",
-    "usage": "Mid-range gaming, school",
-    "price": 1099,
-    "year": 2023
-  },
-  {
-    "eid": "LAP006",
-    "title": "Dell Inspiron 14",
-    "specs": "Intel Core i5, 8GB RAM, 512GB SSD, 14-inch FHD Display",
-    "usage": "Students, basic productivity",
-    "price": 699,
-    "year": 2023
-  },
-  {
-    "eid": "LAP007",
-    "title": "Microsoft Surface Pro 9",
-    "specs": "Intel Core i5, 16GB RAM, 256GB SSD, 13-inch Touchscreen",
-    "usage": "Note-taking, travel, office",
-    "price": 1299,
-    "year": 2024
-  },
+    "product_name": "iPhone 15 Pro Max 256GB",
+    "provider": "Apple",
+    "price_usd": 1199,
+    "specs": " Super Retina XDR OLED, A17 Pro chip, 256GB storage, 8GB RAM, Titanium frame, 48MP main camera, iOS 17",
+    "recommendation": "Top-tier mobile for performance, photography, and longevity.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Apple",
+      "model": "iPhone 15 Pro Max",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_size_inch": 6.7,
+      "resolution": "2796x1290",
+      "release_year": 2023,
+      "provider": "Apple"
+    }
+  },
+  {
+    "product_name": "Samsung Galaxy Watch6 Classic 47mm",
+    "provider": "Samsung",
+    "price_usd": 429,
+    "specs": " Super AMOLED, Exynos W930, 2GB RAM, 16GB storage, Wear OS 4, rotating bezel, ECG & health tracking",
+    "recommendation": "Premium smartwatch with excellent fitness and notification features.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Samsung",
+      "model": "Galaxy Watch6 Classic",
+      "ram_gb": 2,
+      "storage_gb": 16,
+      "screen_size_inch": 1.5,
+      "resolution": "480x480",
+      "release_year": 2023,
+      "provider": "Samsung"
+    }
+  },
+  {
+    "product_name": "Intel Core i9-14900K",
+    "provider": "Intel",
+    "price_usd": 589,
+    "specs": "24 cores (8P+16E), 32 threads, 6.0 GHz max turbo, 125W base TDP, Intel UHD 770, LGA1700 socket",
+    "recommendation": "Best-in-class consumer CPU for gaming, streaming, and productivity.",
+    "metadata": {
+      "category": "cpu",
+      "brand": "Intel",
+      "model": "i9-14900K",
+      "core_count": 24,
+      "release_year": 2023,
+      "provider": "Intel"
+    }
+  },
+  {
+    "product_name": "Apple Watch Series 9 45mm",
+    "provider": "Apple",
+    "price_usd": 429,
+    "specs": " Always-On Retina Display, S9 chip, 64GB storage, blood oxygen sensor, watchOS 10",
+    "recommendation": "Top smartwatch for iOS users with fitness and health features.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Apple",
+      "model": "Watch Series 9",
+      "storage_gb": 64,
+      "screen_size_inch": 1.9,
+      "resolution": "396x484",
+      "release_year": 2023,
+      "provider": "Apple"
+    }
+  },
+  {
+    "product_name": "LG UltraGear 27GR95QE-B 27 OLED Monitor",
+    "provider": "LG",
+    "price_usd": 899,
+    "specs": " OLED, 2560x1440, 240Hz refresh, 0.03ms response, HDMI 2.1, DisplayHDR 400, G-SYNC compatible",
+    "recommendation": "Elite gaming monitor with OLED contrast and blazing speed.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "LG",
+      "model": "27GR95QE-B",
+      "screen_size_inch": 27,
+      "resolution": "2560x1440",
+      "release_year": 2023,
+      "provider": "LG"
+    }
+  },
+  {
+    "product_name": "iPhone 15 Pro Max 256GB",
+    "provider": "Apple",
+    "price_usd": 1199,
+    "specs": " Super Retina XDR OLED, A17 Pro chip, 256GB storage, 8GB RAM, Titanium frame, 48MP main camera, iOS 17",
+    "recommendation": "Top-tier mobile for performance, photography, and longevity.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Apple",
+      "model": "iPhone 15 Pro Max",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_size_inch": 6.7,
+      "resolution": "2796x1290",
+      "release_year": 2023,
+      "provider": "Apple"
+    }
+  },
   {
-    "eid": "LAP008",
-    "title": "Gigabyte AERO 16 OLED",
-    "specs": "Intel Core i9, NVIDIA RTX 4070, 32GB RAM, 1TB SSD",
-    "usage": "3D rendering, video production",
-    "price": 2399,
-    "year": 2024
-  },
-  {
-    "eid": "LAP009",
-    "title": "MSI Prestige 14 Evo",
-    "specs": "Intel Core i7, 16GB RAM, 512GB SSD, 14-inch FHD Display",
-    "usage": "Coding, presentations, design",
-    "price": 1099,
-    "year": 2024
-  },
-  {
-    "eid": "LAP010",
-    "title": "Samsung Galaxy Book3 Pro",
-    "specs": "Intel Core i7, 16GB RAM, 1TB SSD, 16-inch AMOLED Display",
-    "usage": "Multimedia, remote work",
-    "price": 1599,
-    "year": 2024
-  },
-  {
-    "eid": "LAP011",
-    "title": "Dell Alienware m16",
-    "specs": "Intel Core i9, NVIDIA RTX 4090, 32GB RAM, 2TB SSD",
-    "usage": "Ultra gaming, streaming, AI training",
-    "price": 3499,
-    "year": 2024
-  },
-  {
-    "eid": "LAP012",
-    "title": "HP Pavilion Plus 14",
-    "specs": "Intel Core i5, 16GB RAM, 512GB SSD, 14-inch OLED Display",
-    "usage": "Students, content creation",
-    "price": 849,
-    "year": 2023
-  },
-  {
-    "eid": "LAP013",
-    "title": "Lenovo Legion Pro 7i",
-    "specs": "Intel Core i9, NVIDIA RTX 4080, 32GB RAM, 1TB SSD",
-    "usage": "Gaming, heavy rendering",
-    "price": 2799,
-    "year": 2024
-  },
-  {
-    "eid": "LAP014",
-    "title": "ASUS ZenBook S13 OLED",
-    "specs": "Intel Core i7, 16GB RAM, 512GB SSD, 13.3-inch OLED Display",
-    "usage": "Portable work, business trips",
-    "price": 1199,
-    "year": 2024
-  },
-  {
-    "eid": "LAP015",
-    "title": "Acer Chromebook Spin 714",
-    "specs": "Intel Core i5, 8GB RAM, 256GB SSD, 14-inch Touch Display",
-    "usage": "Students, web apps, online classes",
-    "price": 649,
-    "year": 2023
-  },
-  {
-    "eid": "LAP016",
-    "title": "Framework Laptop 13",
-    "specs": "Intel Core i7, 16GB RAM, 512GB SSD, 13.5-inch Display",
-    "usage": "Developers, Linux users, repairable design",
-    "price": 1049,
-    "year": 2024
-  },
-  {
-    "eid": "LAP017",
-    "title": "LG Gram 17",
-    "specs": "Intel Core i7, 16GB RAM, 1TB SSD, 17-inch WQXGA Display",
-    "usage": "Productivity, spreadsheets, finance",
-    "price": 1599,
-    "year": 2024
-  },
-  {
-    "eid": "LAP018",
-    "title": "HP Omen Transcend 16",
-    "specs": "Intel Core i9, NVIDIA RTX 4080, 32GB RAM, 1TB SSD",
-    "usage": "Gaming, VR development",
-    "price": 2899,
-    "year": 2024
-  },
-  {
-    "eid": "LAP019",
-    "title": "ASUS Vivobook 15",
-    "specs": "AMD Ryzen 5, 8GB RAM, 512GB SSD, 15.6-inch FHD Display",
-    "usage": "Students, entry-level work",
-    "price": 549,
-    "year": 2023
-  },
-  {
-    "eid": "LAP020",
-    "title": "Razer Blade 14",
-    "specs": "AMD Ryzen 9, NVIDIA RTX 4070, 16GB RAM, 1TB SSD",
-    "usage": "Gaming, streaming, portability",
-    "price": 2199,
-    "year": 2024
+    "product_name": "Samsung Galaxy S24 Ultra 512GB",
+    "provider": "Samsung",
+    "price_usd": 1399,
+    "specs": " QHD+ AMOLED, Snapdragon 8 Gen 3, 12GB RAM, 512GB storage, 200MP camera, One UI 6.1, S Pen support",
+    "recommendation": "Premium Android phone with cutting-edge hardware and S Pen productivity.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Samsung",
+      "model": "Galaxy S24 Ultra",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_size_inch": 6.8,
+      "resolution": "3088x1440",
+      "release_year": 2024,
+      "provider": "Samsung"
+    }
+  },
+  {
+    "product_name": "Google Pixel 8 Pro 128GB",
+    "provider": "Google",
+    "price_usd": 999,
+    "specs": " LTPO OLED, Google Tensor G3, 12GB RAM, 128GB storage, 50MP main camera, Android 14, AI photo tools",
+    "recommendation": "Excellent camera and AI features, ideal for Android purists.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Google",
+      "model": "Pixel 8 Pro",
+      "ram_gb": 12,
+      "storage_gb": 128,
+      "screen_size_inch": 6.7,
+      "resolution": "2992x1344",
+      "release_year": 2023,
+      "provider": "Google"
+    }
+  },
+  {
+    "product_name": "OnePlus 12 256GB",
+    "provider": "OnePlus",
+    "price_usd": 799,
+    "specs": " AMOLED, Snapdragon 8 Gen 3, 16GB RAM, 256GB storage, 5400mAh, 100W charging, OxygenOS 14",
+    "recommendation": "Flagship killer with excellent performance and fast charging.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "OnePlus",
+      "model": "OnePlus 12",
+      "ram_gb": 16,
+      "storage_gb": 256,
+      "screen_size_inch": 6.82,
+      "resolution": "3168x1440",
+      "release_year": 2024,
+      "provider": "OnePlus"
+    }
+  },
+  {
+    "product_name": "Apple Watch Ultra 2",
+    "provider": "Apple",
+    "price_usd": 799,
+    "specs": " Retina OLED, S9 SiP, titanium body, 64GB storage, dual-frequency GPS, 100m water resistance",
+    "recommendation": "Rugged and reliable for extreme sports and outdoor activities.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Apple",
+      "model": "Watch Ultra 2",
+      "storage_gb": 64,
+      "screen_size_inch": 1.92,
+      "resolution": "502x410",
+      "release_year": 2023,
+      "provider": "Apple"
+    }
+  },
+  {
+    "product_name": "Samsung Galaxy Watch6 Classic 47mm",
+    "provider": "Samsung",
+    "price_usd": 429,
+    "specs": " Super AMOLED, Exynos W930, 2GB RAM, 16GB storage, Wear OS 4, rotating bezel, ECG & health tracking",
+    "recommendation": "Premium smartwatch with excellent fitness and notification features.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Samsung",
+      "model": "Galaxy Watch6 Classic",
+      "ram_gb": 2,
+      "storage_gb": 16,
+      "screen_size_inch": 1.5,
+      "resolution": "480x480",
+      "release_year": 2023,
+      "provider": "Samsung"
+    }
+  },
+  {
+    "product_name": "Garmin Venu 3",
+    "provider": "Garmin",
+    "price_usd": 449,
+    "specs": " AMOLED, 8GB storage, heart rate and sleep tracking, 14-day battery, Garmin OS, GPS, voice assistant",
+    "recommendation": "Great for serious athletes and long battery life fans.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Garmin",
+      "model": "Venu 3",
+      "storage_gb": 8,
+      "screen_size_inch": 1.4,
+      "resolution": "454x454",
+      "release_year": 2023,
+      "provider": "Garmin"
+    }
+  },
+  {
+    "product_name": "Apple Watch SE (2nd Gen)",
+    "provider": "Apple",
+    "price_usd": 249,
+    "specs": " Retina OLED, S8 chip, 32GB storage, swimproof, crash detection, iOS integration",
+    "recommendation": "Budget-friendly Apple Watch with essential features.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Apple",
+      "model": "Watch SE 2",
+      "storage_gb": 32,
+      "screen_size_inch": 1.78,
+      "resolution": "448x368",
+      "release_year": 2022,
+      "provider": "Apple"
+    }
+  },
+  {
+    "product_name": "Intel Core i9-14900K",
+    "provider": "Intel",
+    "price_usd": 589,
+    "specs": "24 cores (8P+16E), 32 threads, 6.0 GHz max turbo, 125W base TDP, Intel UHD 770, LGA1700 socket",
+    "recommendation": "Best-in-class consumer CPU for gaming, streaming, and productivity.",
+    "metadata": {
+      "category": "cpu",
+      "brand": "Intel",
+      "model": "i9-14900K",
+      "core_count": 24,
+      "release_year": 2023,
+      "provider": "Intel"
+    }
+  },
+  {
+    "product_name": "AMD Ryzen 9 7950X",
+    "provider": "AMD",
+    "price_usd": 699,
+    "specs": "16 cores, 32 threads, 5.7GHz boost, 170W TDP, AM5 socket, integrated graphics, DDR5, PCIe 5.0",
+    "recommendation": "High-performance CPU for enthusiasts and creators.",
+    "metadata": {
+      "category": "cpu",
+      "brand": "AMD",
+      "model": "Ryzen 9 7950X",
+      "core_count": 16,
+      "release_year": 2022,
+      "provider": "AMD"
+    }
+  },
+  {
+    "product_name": "Intel Core i5-14600K",
+    "provider": "Intel",
+    "price_usd": 319,
+    "specs": "14 cores (6P+8E), 20 threads, 5.3 GHz boost, 125W TDP, Intel UHD Graphics 770, LGA1700",
+    "recommendation": "Balanced option for gaming and content creation at mid-tier pricing.",
+    "metadata": {
+      "category": "cpu",
+      "brand": "Intel",
+      "model": "i5-14600K",
+      "core_count": 14,
+      "release_year": 2023,
+      "provider": "Intel"
+    }
+  },
+  {
+    "product_name": "AMD Ryzen 5 7600X",
+    "provider": "AMD",
+    "price_usd": 249,
+    "specs": "6 cores, 12 threads, 5.3GHz boost, 105W TDP, AM5 socket, PCIe 5.0, DDR5 support",
+    "recommendation": "Affordable and efficient CPU for gamers and general users.",
+    "metadata": {
+      "category": "cpu",
+      "brand": "AMD",
+      "model": "Ryzen 5 7600X",
+      "core_count": 6,
+      "release_year": 2022,
+      "provider": "AMD"
+    }
+  },
+  {
+    "product_name": "LG UltraGear 27GR95QE-B 27 OLED Monitor",
+    "provider": "LG",
+    "price_usd": 899,
+    "specs": " OLED, 2560x1440, 240Hz refresh, 0.03ms response, HDMI 2.1, DisplayHDR 400, G-SYNC compatible",
+    "recommendation": "Elite gaming monitor with OLED contrast and blazing speed.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "LG",
+      "model": "27GR95QE-B",
+      "screen_size_inch": 27,
+      "resolution": "2560x1440",
+      "release_year": 2023,
+      "provider": "LG"
+    }
+  },
+  {
+    "product_name": " QD-OLED",
+    "provider": "Dell",
+    "price_usd": 1099,
+    "specs": " QD-OLED, 3440x1440, 165Hz, 0.1ms, DisplayHDR True Black 400, AMD FreeSync Premium Pro",
+    "recommendation": "Immersive ultrawide monitor with deep blacks and fast response.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "Dell",
+      "model": "AW3423DWF",
+      "screen_size_inch": 34,
+      "resolution": "3440x1440",
+      "release_year": 2022,
+      "provider": "Dell"
+    }
+  },
+  {
+    "product_name": "Gigabyte M32U 32 4K Gaming Monitor",
+    "provider": "Gigabyte",
+    "price_usd": 699,
+    "specs": " IPS, 3840x2160, 144Hz, 1ms, HDMI 2.1, DisplayHDR 400, KVM switch",
+    "recommendation": "Affordable 4K monitor for next-gen console and PC gamers.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "Gigabyte",
+      "model": "M32U",
+      "screen_size_inch": 32,
+      "resolution": "3840x2160",
+      "release_year": 2021,
+      "provider": "Gigabyte"
+    }
+  },
+  {
+    "product_name": "ASUS ROG Swift PG27AQDM OLED",
+    "provider": "ASUS",
+    "price_usd": 999,
+    "specs": "OLED, 2560x1440, 240Hz, 0.03ms, HDR10, G-SYNC compatible, anti-glare coating",
+    "recommendation": "Premium gaming OLED monitor with unmatched responsiveness.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "ASUS",
+      "model": "PG27AQDM",
+      "screen_size_inch": 27,
+      "resolution": "2560x1440",
+      "release_year": 2023,
+      "provider": "ASUS"
+    }
+  },
+  {
+    "product_name": "iPhone 15 Pro Max 256GB",
+    "provider": "Apple",
+    "price_usd": 1199,
+    "specs": "Super Retina XDR OLED, A17 Pro chip, 256GB storage, 8GB RAM, Titanium frame, 48MP main camera, iOS 17",
+    "recommendation": "Top-tier mobile for performance, photography, and longevity.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Apple",
+      "model": "iPhone 15 Pro Max",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_size_inch": 6.7,
+      "resolution": "2796x1290",
+      "release_year": 2023,
+      "provider": "Apple"
+    }
+  },
+  {
+    "product_name": "Samsung Galaxy S24 Ultra 512GB",
+    "provider": "Samsung",
+    "price_usd": 1399,
+    "specs": "6.8-inch AMOLED 120Hz, Snapdragon 8 Gen 3, 512GB storage, 12GB RAM, 200MP camera, Android 14",
+    "recommendation": "Premium Android phone with cutting-edge camera and display.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Samsung",
+      "model": "Galaxy S24 Ultra",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_size_inch": 6.8,
+      "resolution": "3088x1440",
+      "release_year": 2024,
+      "provider": "Samsung"
+    }
+  },
+  {
+    "product_name": "Apple Watch Series 9 45mm",
+    "provider": "Apple",
+    "price_usd": 429,
+    "specs": "45mm Retina display, S9 chip, 64GB storage, Blood Oxygen and ECG apps, watchOS 10",
+    "recommendation": "Excellent smartwatch for health tracking and iPhone integration.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Apple",
+      "model": "Watch Series 9",
+      "ram_gb": 1,
+      "storage_gb": 64,
+      "screen_size_inch": 1.9,
+      "resolution": "396x484",
+      "release_year": 2023,
+      "provider": "Apple"
+    }
+  },
+  {
+    "product_name": "Google Pixel 8 Pro 256GB",
+    "provider": "Google",
+    "price_usd": 999,
+    "specs": "6.7-inch LTPO OLED, Google Tensor G3, 256GB storage, 12GB RAM, Android 14, 50MP camera",
+    "recommendation": "Top Google phone with smart features and clean Android experience.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Google",
+      "model": "Pixel 8 Pro",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_size_inch": 6.7,
+      "resolution": "2992x1344",
+      "release_year": 2023,
+      "provider": "Google"
+    }
+  },
+  {
+    "product_name": "Samsung Galaxy Watch6 Classic 47mm",
+    "provider": "Samsung",
+    "price_usd": 399,
+    "specs": "47mm Super AMOLED, Exynos W930, 16GB storage, Wear OS 4, Classic rotating bezel",
+    "recommendation": "Stylish Android smartwatch with reliable health tracking.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Samsung",
+      "model": "Galaxy Watch6 Classic",
+      "ram_gb": 2,
+      "storage_gb": 16,
+      "screen_size_inch": 1.5,
+      "resolution": "480x480",
+      "release_year": 2023,
+      "provider": "Samsung"
+    }
+  },
+  {
+    "product_name": "Intel Core i9-14900K",
+    "provider": "Intel",
+    "price_usd": 589,
+    "specs": "24-core, 32-thread, up to 6.0GHz, LGA 1700, 13th Gen Raptor Lake Refresh, 125W TDP",
+    "recommendation": "Ultimate processor for gaming and content creation.",
+    "metadata": {
+      "category": "cpu",
+      "brand": "Intel",
+      "model": "Core i9-14900K",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 0,
+      "resolution": "NA",
+      "release_year": 2024,
+      "provider": "Intel"
+    }
+  },
+  {
+    "product_name": "AMD Ryzen 9 7950X3D",
+    "provider": "AMD",
+    "price_usd": 699,
+    "specs": "16-core, 32-thread, 5.7GHz boost, AM5 socket, 120W TDP, 3D V-Cache",
+    "recommendation": "High-performance CPU optimized for gaming with 3D V-Cache tech.",
+    "metadata": {
+      "category": "cpu",
+      "brand": "AMD",
+      "model": "Ryzen 9 7950X3D",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 0,
+      "resolution": "NA",
+      "release_year": 2023,
+      "provider": "AMD"
+    }
+  },
+  {
+    "product_name": "Dell UltraSharp U2724DE 27-inch",
+    "provider": "Dell",
+    "price_usd": 649,
+    "specs": "27-inch IPS, 2560x1440, 120Hz, DisplayHDR 400, USB-C hub, InfinityEdge",
+    "recommendation": "Excellent monitor for professionals needing color accuracy and connectivity.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "Dell",
+      "model": "UltraSharp U2724DE",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 27,
+      "resolution": "2560x1440",
+      "release_year": 2024,
+      "provider": "Dell"
+    }
+  },
+  {
+    "product_name": "Apple Studio Display 27-inch 5K",
+    "provider": "Apple",
+    "price_usd": 1599,
+    "specs": "27-inch Retina 5K, 5120x2880, P3 wide color, True Tone, A13 chip, Thunderbolt",
+    "recommendation": "Best-in-class 5K monitor for Apple ecosystem users and creators.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "Apple",
+      "model": "Studio Display",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 27,
+      "resolution": "5120x2880",
+      "release_year": 2022,
+      "provider": "Apple"
+    }
+  },
+  {
+    "product_name": "ASUS ROG Swift PG32UQX 32-inch",
+    "provider": "ASUS",
+    "price_usd": 2999,
+    "specs": "32-inch 4K HDR, 144Hz G-Sync Ultimate, Mini LED, 1400 nits peak brightness",
+    "recommendation": "Elite-level monitor for gaming with uncompromising visuals.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "ASUS",
+      "model": "ROG Swift PG32UQX",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 32,
+      "resolution": "3840x2160",
+      "release_year": 2023,
+      "provider": "ASUS"
+    }
+  },
+  {
+    "product_name": "Nothing Phone (2) 256GB",
+    "provider": "Nothing",
+    "price_usd": 699,
+    "specs": "6.7-inch OLED, Snapdragon 8+ Gen 1, Glyph interface, 256GB storage, 12GB RAM",
+    "recommendation": "Unique transparent design and smooth Android experience.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Nothing",
+      "model": "Phone (2)",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_size_inch": 6.7,
+      "resolution": "2412x1080",
+      "release_year": 2023,
+      "provider": "Nothing"
+    }
+  },
+  {
+    "product_name": "OnePlus 12 512GB",
+    "provider": "OnePlus",
+    "price_usd": 899,
+    "specs": "6.8-inch AMOLED, Snapdragon 8 Gen 3, 512GB storage, 16GB RAM, Hasselblad camera",
+    "recommendation": "Flagship killer with great performance and fast charging.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "OnePlus",
+      "model": "12",
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "screen_size_inch": 6.8,
+      "resolution": "3168x1440",
+      "release_year": 2024,
+      "provider": "OnePlus"
+    }
+  },
+  {
+    "product_name": "Garmin Fenix 7X Pro Solar",
+    "provider": "Garmin",
+    "price_usd": 899,
+    "specs": "1.4-inch display, Solar charging, GPS, 32GB storage, Sapphire lens, Pulse Ox sensor",
+    "recommendation": "Rugged multisport watch with long battery life and solar tech.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Garmin",
+      "model": "Fenix 7X Pro Solar",
+      "ram_gb": 1,
+      "storage_gb": 32,
+      "screen_size_inch": 1.4,
+      "resolution": "280x280",
+      "release_year": 2023,
+      "provider": "Garmin"
+    }
+  },
+  {
+    "product_name": "Apple M3 Max Chip",
+    "provider": "Apple",
+    "price_usd": 899,
+    "specs": "16-core CPU, 40-core GPU, Unified memory, 3nm process, for MacBook Pro 2024",
+    "recommendation": "Extreme performance for professionals in Apple’s ecosystem.",
+    "metadata": {
+      "category": "cpu",
+      "brand": "Apple",
+      "model": "M3 Max",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 0,
+      "resolution": "NA",
+      "release_year": 2024,
+      "provider": "Apple"
+    }
+  },
+  {
+    "product_name": "Samsung Smart Monitor M8 32-inch",
+    "provider": "Samsung",
+    "price_usd": 699,
+    "specs": "32-inch UHD 4K, Smart TV apps, SlimFit camera, USB-C, Alexa built-in",
+    "recommendation": "Versatile monitor with built-in smart features for work and play.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "Samsung",
+      "model": "Smart Monitor M8",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 32,
+      "resolution": "3840x2160",
+      "release_year": 2023,
+      "provider": "Samsung"
+    }
+  },
+  {
+    "product_name": "Huawei Watch GT 4 46mm",
+    "provider": "Huawei",
+    "price_usd": 299,
+    "specs": "1.43-inch AMOLED, 14-day battery life, fitness tracking, HarmonyOS",
+    "recommendation": "Stylish smartwatch with excellent battery life.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Huawei",
+      "model": "Watch GT 4",
+      "ram_gb": 1,
+      "storage_gb": 16,
+      "screen_size_inch": 1.43,
+      "resolution": "466x466",
+      "release_year": 2023,
+      "provider": "Huawei"
+    }
+  },
+  {
+    "product_name": "Xiaomi 14 Ultra 1TB",
+    "provider": "Xiaomi",
+    "price_usd": 999,
+    "specs": "6.73-inch AMOLED, Snapdragon 8 Gen 3, Leica quad camera, 16GB RAM, 1TB storage",
+    "recommendation": "Top Xiaomi flagship with powerful hardware and photography.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Xiaomi",
+      "model": "14 Ultra",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "screen_size_inch": 6.73,
+      "resolution": "3200x1440",
+      "release_year": 2024,
+      "provider": "Xiaomi"
+    }
+  },
+  {
+    "product_name": "Fitbit Sense 2",
+    "provider": "Fitbit",
+    "price_usd": 299,
+    "specs": "1.58-inch AMOLED, Stress management, ECG, Sleep tracking, Built-in GPS",
+    "recommendation": "Smartwatch focused on wellness and health tracking.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Fitbit",
+      "model": "Sense 2",
+      "ram_gb": 1,
+      "storage_gb": 4,
+      "screen_size_inch": 1.58,
+      "resolution": "336x336",
+      "release_year": 2023,
+      "provider": "Fitbit"
+    }
+  },
+  {
+    "product_name": "Acer Predator X32 FP 32-inch",
+    "provider": "Acer",
+    "price_usd": 1299,
+    "specs": "32-inch UHD 4K, 160Hz refresh rate, HDMI 2.1, DisplayHDR 1000, G-Sync compatible",
+    "recommendation": "Premium gaming monitor with ultra-high refresh and resolution.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "Acer",
+      "model": "Predator X32 FP",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 32,
+      "resolution": "3840x2160",
+      "release_year": 2023,
+      "provider": "Acer"
+    }
+  },
+  {
+    "product_name": "Realme GT 5 Pro 1TB",
+    "provider": "Realme",
+    "price_usd": 599,
+    "specs": "6.78-inch OLED, Snapdragon 8 Gen 3, 1TB storage, 16GB RAM, 144Hz, 50MP Sony sensor",
+    "recommendation": "Affordable flagship killer with top-tier hardware.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Realme",
+      "model": "GT 5 Pro",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "screen_size_inch": 6.78,
+      "resolution": "2780x1264",
+      "release_year": 2024,
+      "provider": "Realme"
+    }
+  },
+  {
+    "product_name": "Motorola Edge+ 2023 512GB",
+    "provider": "Motorola",
+    "price_usd": 799,
+    "specs": "6.7-inch OLED, Snapdragon 8 Gen 2, 512GB storage, 12GB RAM, Android 13, 165Hz refresh",
+    "recommendation": "Smooth performance with ultra-high refresh display and clean software.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Motorola",
+      "model": "Edge+ 2023",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_size_inch": 6.7,
+      "resolution": "2400x1080",
+      "release_year": 2023,
+      "provider": "Motorola"
+    }
+  },
+  {
+    "product_name": "Honor Magic6 Pro 1TB",
+    "provider": "Honor",
+    "price_usd": 949,
+    "specs": "6.8-inch LTPO OLED, Snapdragon 8 Gen 3, 1TB storage, 16GB RAM, 50MP periscope camera",
+    "recommendation": "Feature-packed flagship with long battery and great cameras.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Honor",
+      "model": "Magic6 Pro",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "screen_size_inch": 6.8,
+      "resolution": "2800x1264",
+      "release_year": 2024,
+      "provider": "Honor"
+    }
+  },
+  {
+    "product_name": "Sony Xperia 1 V 256GB",
+    "provider": "Sony",
+    "price_usd": 1299,
+    "specs": "6.5-inch 4K OLED, Snapdragon 8 Gen 2, 256GB, 12GB RAM, 120Hz, triple camera with ZEISS optics",
+    "recommendation": "Premium phone for creatives and multimedia lovers.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Sony",
+      "model": "Xperia 1 V",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_size_inch": 6.5,
+      "resolution": "3840x1644",
+      "release_year": 2023,
+      "provider": "Sony"
+    }
+  },
+  {
+    "product_name": "Apple Watch Ultra 2",
+    "provider": "Apple",
+    "price_usd": 799,
+    "specs": "49mm Retina display, S9 chip, 64GB storage, Dual-frequency GPS, 36-hour battery life",
+    "recommendation": "Rugged Apple Watch for adventurers and athletes.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Apple",
+      "model": "Watch Ultra 2",
+      "ram_gb": 1,
+      "storage_gb": 64,
+      "screen_size_inch": 1.92,
+      "resolution": "410x502",
+      "release_year": 2023,
+      "provider": "Apple"
+    }
+  },
+  {
+    "product_name": "Amazfit Balance",
+    "provider": "Amazfit",
+    "price_usd": 229,
+    "specs": "1.5-inch AMOLED, 14-day battery, BioTracker sensor, Zepp OS, GPS",
+    "recommendation": "Affordable and reliable fitness smartwatch.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Amazfit",
+      "model": "Balance",
+      "ram_gb": 1,
+      "storage_gb": 4,
+      "screen_size_inch": 1.5,
+      "resolution": "480x480",
+      "release_year": 2023,
+      "provider": "Amazfit"
+    }
+  },
+  {
+    "product_name": "AMD Ryzen 7 7800X3D",
+    "provider": "AMD",
+    "price_usd": 449,
+    "specs": "8-core, 16-thread, 5.0GHz boost, AM5 socket, 3D V-Cache, 120W TDP",
+    "recommendation": "Best gaming CPU for price/performance ratio.",
+    "metadata": {
+      "category": "cpu",
+      "brand": "AMD",
+      "model": "Ryzen 7 7800X3D",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 0,
+      "resolution": "NA",
+      "release_year": 2023,
+      "provider": "AMD"
+    }
+  },
+  {
+    "product_name": "Intel Core i7-14700K",
+    "provider": "Intel",
+    "price_usd": 409,
+    "specs": "20-core, 28-thread, up to 5.6GHz, LGA 1700, Raptor Lake Refresh",
+    "recommendation": "High-end CPU for gamers and power users.",
+    "metadata": {
+      "category": "cpu",
+      "brand": "Intel",
+      "model": "Core i7-14700K",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 0,
+      "resolution": "NA",
+      "release_year": 2024,
+      "provider": "Intel"
+    }
+  },
+  {
+    "product_name": "MSI Modern MD271UL 27-inch",
+    "provider": "MSI",
+    "price_usd": 349,
+    "specs": "27-inch 4K UHD, IPS, Anti-glare, USB-C, 60Hz, ergonomic stand",
+    "recommendation": "Excellent 4K monitor for productivity and home office.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "MSI",
+      "model": "Modern MD271UL",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 27,
+      "resolution": "3840x2160",
+      "release_year": 2023,
+      "provider": "MSI"
+    }
+  },
+  {
+    "product_name": "LG UltraFine OLED Pro 32EP950",
+    "provider": "LG",
+    "price_usd": 3499,
+    "specs": "32-inch 4K OLED, 1M:1 contrast, DCI-P3 99%, true 10-bit color, DisplayHDR 400",
+    "recommendation": "Top-tier monitor for professional video and photo editors.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "LG",
+      "model": "UltraFine OLED Pro 32EP950",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 32,
+      "resolution": "3840x2160",
+      "release_year": 2023,
+      "provider": "LG"
+    }
+  },
+  {
+    "product_name": "Zeblaze Vibe 7 Pro",
+    "provider": "Zeblaze",
+    "price_usd": 79,
+    "specs": "1.43-inch IPS, Heart rate & SpO2, 30-day standby, 5ATM waterproof, Bluetooth calling",
+    "recommendation": "Budget-friendly smartwatch with all essential features.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Zeblaze",
+      "model": "Vibe 7 Pro",
+      "ram_gb": 0.5,
+      "storage_gb": 1,
+      "screen_size_inch": 1.43,
+      "resolution": "360x360",
+      "release_year": 2024,
+      "provider": "Zeblaze"
+    }
+  },
+  {
+    "product_name": "Redmi K70 Pro 1TB",
+    "provider": "Xiaomi",
+    "price_usd": 599,
+    "specs": "6.67-inch OLED, Snapdragon 8 Gen 3, 1TB storage, 16GB RAM, 5000mAh battery",
+    "recommendation": "Flagship killer with excellent specs at a mid-range price.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Xiaomi",
+      "model": "Redmi K70 Pro",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "screen_size_inch": 6.67,
+      "resolution": "3200x1440",
+      "release_year": 2024,
+      "provider": "Xiaomi"
+    }
+  },
+  {
+    "product_name": "Realme Watch 3 Pro",
+    "provider": "Realme",
+    "price_usd": 89,
+    "specs": "1.78-inch AMOLED, Bluetooth calling, built-in GPS, heart rate, SpO2",
+    "recommendation": "Affordable smartwatch with premium display and built-in GPS.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Realme",
+      "model": "Watch 3 Pro",
+      "ram_gb": 0.5,
+      "storage_gb": 1,
+      "screen_size_inch": 1.78,
+      "resolution": "368x448",
+      "release_year": 2023,
+      "provider": "Realme"
+    }
+  },
+  {
+    "product_name": "ViewSonic VP2756-4K 27-inch",
+    "provider": "ViewSonic",
+    "price_usd": 429,
+    "specs": "27-inch 4K UHD, 100% sRGB, USB-C, HDR10, Pantone validated",
+    "recommendation": "Accurate color display for creative professionals and editors.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "ViewSonic",
+      "model": "VP2756-4K",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 27,
+      "resolution": "3840x2160",
+      "release_year": 2023,
+      "provider": "ViewSonic"
+    }
+  },
+  {
+    "product_name": "ASRock DeskMini B760",
+    "provider": "ASRock",
+    "price_usd": 299,
+    "specs": "Mini PC barebone, supports 12/13th Gen Intel CPU, DDR4 SO-DIMM, USB-C, M.2 NVMe",
+    "recommendation": "Compact and flexible barebone PC for office or home use.",
+    "metadata": {
+      "category": "cpu",
+      "brand": "ASRock",
+      "model": "DeskMini B760",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 0,
+      "resolution": "NA",
+      "release_year": 2023,
+      "provider": "ASRock"
+    }
+  },
+  {
+    "product_name": "Apple M2 Pro Chip",
+    "provider": "Apple",
+    "price_usd": 599,
+    "specs": "12-core CPU, 19-core GPU, Unified memory, 2nd Gen 5nm, used in MacBook Pro 2023",
+    "recommendation": "Balanced chip for pros needing performance and battery life.",
+    "metadata": {
+      "category": "cpu",
+      "brand": "Apple",
+      "model": "M2 Pro",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 0,
+      "resolution": "NA",
+      "release_year": 2023,
+      "provider": "Apple"
+    }
+  },
+  {
+    "product_name": "Infinix Zero Ultra 256GB",
+    "provider": "Infinix",
+    "price_usd": 499,
+    "specs": "6.8-inch AMOLED, Dimensity 920, 256GB storage, 8GB RAM, 180W fast charge",
+    "recommendation": "Super-fast charging mid-range phone with premium feel.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Infinix",
+      "model": "Zero Ultra",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_size_inch": 6.8,
+      "resolution": "2400x1080",
+      "release_year": 2023,
+      "provider": "Infinix"
+    }
+  },
+  {
+    "product_name": "TCL 40 X 5G 128GB",
+    "provider": "TCL",
+    "price_usd": 229,
+    "specs": "6.56-inch HD+, MediaTek Dimensity 6020, 128GB storage, 4GB RAM, Android 13",
+    "recommendation": "Budget 5G phone with clean UI and solid build.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "TCL",
+      "model": "40 X 5G",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "screen_size_inch": 6.56,
+      "resolution": "1612x720",
+      "release_year": 2023,
+      "provider": "TCL"
+    }
+  },
+  {
+    "product_name": "Tecno Phantom V Flip 5G",
+    "provider": "Tecno",
+    "price_usd": 699,
+    "specs": "6.9-inch foldable AMOLED, Dimensity 8050, 256GB, 8GB RAM, outer display",
+    "recommendation": "Affordable flip phone with stylish design and decent specs.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Tecno",
+      "model": "Phantom V Flip",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_size_inch": 6.9,
+      "resolution": "2640x1080",
+      "release_year": 2023,
+      "provider": "Tecno"
+    }
+  },
+  {
+    "product_name": "OPPO Find X7 Ultra 1TB",
+    "provider": "OPPO",
+    "price_usd": 949,
+    "specs": "6.82-inch AMOLED, Snapdragon 8 Gen 3, 1TB storage, 16GB RAM, Quad 50MP cameras, Android 14",
+    "recommendation": "Flagship camera phone with exceptional display and performance.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "OPPO",
+      "model": "Find X7 Ultra",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "screen_size_inch": 6.82,
+      "resolution": "3168x1440",
+      "release_year": 2024,
+      "provider": "OPPO"
+    }
+  },
+  {
+    "product_name": "vivo X100 Pro 1TB",
+    "provider": "vivo",
+    "price_usd": 899,
+    "specs": "6.78-inch AMOLED, Dimensity 9300, 1TB storage, 16GB RAM, Zeiss optics, Android 14",
+    "recommendation": "Impressive camera setup and flagship performance from vivo.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "vivo",
+      "model": "X100 Pro",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "screen_size_inch": 6.78,
+      "resolution": "2800x1260",
+      "release_year": 2024,
+      "provider": "vivo"
+    }
+  },
+  {
+    "product_name": "Meizu 20 Pro 512GB",
+    "provider": "Meizu",
+    "price_usd": 599,
+    "specs": "6.81-inch AMOLED, Snapdragon 8 Gen 2, 512GB storage, 12GB RAM, Flyme OS",
+    "recommendation": "Premium design and smooth user experience.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Meizu",
+      "model": "20 Pro",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_size_inch": 6.81,
+      "resolution": "3200x1440",
+      "release_year": 2023,
+      "provider": "Meizu"
+    }
+  },
+  {
+    "product_name": "Cubot KingKong AX 256GB",
+    "provider": "Cubot",
+    "price_usd": 299,
+    "specs": "6.5-inch rugged phone, MediaTek G99, 256GB, 12GB RAM, 10000mAh battery, Android 13",
+    "recommendation": "Durable rugged phone with massive battery for outdoor use.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Cubot",
+      "model": "KingKong AX",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_size_inch": 6.5,
+      "resolution": "2400x1080",
+      "release_year": 2024,
+      "provider": "Cubot"
+    }
+  },
+  {
+    "product_name": "ZTE Nubia RedMagic 9 Pro+ 1TB",
+    "provider": "ZTE",
+    "price_usd": 799,
+    "specs": "6.8-inch AMOLED, Snapdragon 8 Gen 3, 1TB, 24GB RAM, 165Hz refresh, cooling system",
+    "recommendation": "Top-tier gaming phone with excellent specs and cooling.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "ZTE",
+      "model": "RedMagic 9 Pro+",
+      "ram_gb": 24,
+      "storage_gb": 1024,
+      "screen_size_inch": 6.8,
+      "resolution": "2480x1116",
+      "release_year": 2024,
+      "provider": "ZTE"
+    }
+  },
+  {
+    "product_name": "Doogee S100 Pro 256GB",
+    "provider": "Doogee",
+    "price_usd": 279,
+    "specs": "6.58-inch rugged LCD, Helio G99, 256GB, 12GB RAM, 22000mAh battery, Android 13",
+    "recommendation": "Ultra-rugged phone with extreme battery capacity.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Doogee",
+      "model": "S100 Pro",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_size_inch": 6.58,
+      "resolution": "2408x1080",
+      "release_year": 2024,
+      "provider": "Doogee"
+    }
+  },
+  {
+    "product_name": "Mobvoi TicWatch Pro 5",
+    "provider": "Mobvoi",
+    "price_usd": 349,
+    "specs": "1.43-inch AMOLED + FSTN dual display, Snapdragon W5+, 32GB, 80h battery life",
+    "recommendation": "Innovative dual-display smartwatch with long-lasting battery.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Mobvoi",
+      "model": "TicWatch Pro 5",
+      "ram_gb": 2,
+      "storage_gb": 32,
+      "screen_size_inch": 1.43,
+      "resolution": "466x466",
+      "release_year": 2023,
+      "provider": "Mobvoi"
+    }
+  },
+  {
+    "product_name": "COROS Pace 3",
+    "provider": "COROS",
+    "price_usd": 229,
+    "specs": "1.2-inch transflective display, 38h GPS battery, Pulse Ox, 32GB, GPS/GLONASS/Galileo",
+    "recommendation": "Lightweight multisport GPS watch with long battery life.",
+    "metadata": {
+      "category": "watch",
+      "brand": "COROS",
+      "model": "Pace 3",
+      "ram_gb": 1,
+      "storage_gb": 32,
+      "screen_size_inch": 1.2,
+      "resolution": "240x240",
+      "release_year": 2023,
+      "provider": "COROS"
+    }
+  },
+  {
+    "product_name": "AMD Ryzen 5 8600G",
+    "provider": "AMD",
+    "price_usd": 229,
+    "specs": "6-core, 12-thread, 5.0GHz boost, integrated Radeon 760M, AM5 socket",
+    "recommendation": "Affordable APU with great integrated graphics performance.",
+    "metadata": {
+      "category": "cpu",
+      "brand": "AMD",
+      "model": "Ryzen 5 8600G",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 0,
+      "resolution": "NA",
+      "release_year": 2024,
+      "provider": "AMD"
+    }
+  },
+  {
+    "product_name": "Intel Core i5-14500",
+    "provider": "Intel",
+    "price_usd": 219,
+    "specs": "14-core, 20-thread, 4.8GHz boost, LGA 1700, Raptor Lake Refresh",
+    "recommendation": "Solid mid-range CPU for gaming and productivity.",
+    "metadata": {
+      "category": "cpu",
+      "brand": "Intel",
+      "model": "Core i5-14500",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 0,
+      "resolution": "NA",
+      "release_year": 2024,
+      "provider": "Intel"
+    }
+  },
+  {
+    "product_name": "Lenovo ThinkVision P32p-30",
+    "provider": "Lenovo",
+    "price_usd": 799,
+    "specs": "32-inch UHD 4K IPS, USB-C docking, 99% sRGB, factory calibrated, anti-glare",
+    "recommendation": "Professional 4K monitor with USB-C hub for productivity.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "Lenovo",
+      "model": "ThinkVision P32p-30",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 32,
+      "resolution": "3840x2160",
+      "release_year": 2023,
+      "provider": "Lenovo"
+    }
+  },
+  {
+    "product_name": "Gigabyte M27Q X 27-inch",
+    "provider": "Gigabyte",
+    "price_usd": 399,
+    "specs": "27-inch QHD IPS, 240Hz, 1ms MPRT, KVM switch, HDR400",
+    "recommendation": "High-refresh display for gamers and multitaskers.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "Gigabyte",
+      "model": "M27Q X",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 27,
+      "resolution": "2560x1440",
+      "release_year": 2023,
+      "provider": "Gigabyte"
+    }
+  },
+  {
+    "product_name": "Philips 45B1U6900CH 45-inch",
+    "provider": "Philips",
+    "price_usd": 1099,
+    "specs": "45-inch SuperWide 5120x1440, USB-C dock, webcam, DisplayHDR 400, 75Hz",
+    "recommendation": "Massive ultrawide monitor ideal for productivity and conferencing.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "Philips",
+      "model": "45B1U6900CH",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 45,
+      "resolution": "5120x1440",
+      "release_year": 2023,
+      "provider": "Philips"
+    }
+  },
+  {
+    "product_name": "ViewSonic ColorPro VP16-OLED",
+    "provider": "ViewSonic",
+    "price_usd": 399,
+    "specs": "15.6-inch OLED, Full HD, 100% DCI-P3, Pantone validated, foldable stand",
+    "recommendation": "Portable OLED monitor for creators and on-the-go work.",
+    "metadata": {
+      "category": "monitor",
+      "brand": "ViewSonic",
+      "model": "ColorPro VP16-OLED",
+      "ram_gb": 0,
+      "storage_gb": 0,
+      "screen_size_inch": 15.6,
+      "resolution": "1920x1080",
+      "release_year": 2023,
+      "provider": "ViewSonic"
+    }
+  },
+  {
+    "product_name": "Huawei MatePad Pro 13.2 1TB",
+    "provider": "Huawei",
+    "price_usd": 1199,
+    "specs": "13.2-inch flexible OLED, Kirin 9000s, 1TB storage, HarmonyOS 4, stylus support",
+    "recommendation": "Flagship productivity tablet with premium display and performance.",
+    "metadata": {
+      "category": "mobile",
+      "brand": "Huawei",
+      "model": "MatePad Pro 13.2",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "screen_size_inch": 13.2,
+      "resolution": "2880x1920",
+      "release_year": 2024,
+      "provider": "Huawei"
+    }
+  },
+  {
+    "product_name": "Zeblaze GTS 3",
+    "provider": "Zeblaze",
+    "price_usd": 39,
+    "specs": "1.57-inch LCD, IP68, Heart Rate, SpO2, Sleep Tracking, 7-day battery",
+    "recommendation": "Affordable fitness watch with essential tracking features.",
+    "metadata": {
+      "category": "watch",
+      "brand": "Zeblaze",
+      "model": "GTS 3",
+      "ram_gb": 0.5,
+      "storage_gb": 1,
+      "screen_size_inch": 1.57,
+      "resolution": "240x280",
+      "release_year": 2023,
+      "provider": "Zeblaze"
+    }
+  },
+  {
+    "product_name": "OnePlus Watch 2",
+    "provider": "OnePlus",
+    "price_usd": 299,
+    "specs": "1.43-inch AMOLED, Snapdragon W5 + BES2700, dual-engine, Wear OS, 100h battery life",
+    "recommendation": "Hybrid-powered Wear OS smartwatch with excellent endurance.",
+    "metadata": {
+      "category": "watch",
+      "brand": "OnePlus",
+      "model": "Watch 2",
+      "ram_gb": 2,
+      "storage_gb": 32,
+      "screen_size_inch": 1.43,
+      "resolution": "466x466",
+      "release_year": 2024,
+      "provider": "OnePlus"
+    }
   }
 ]

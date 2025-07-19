@@ -24,7 +24,11 @@ from langchain_tavily import TavilySearch
 os.environ["OPENAI_API_KEY"] = "sk-apxTWWhdEMvQr1PMX3Wy1Q"
 os.environ["TAVILY_API_KEY"] = "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"
 
-tavily_api = TavilySearch()
+tavily_api = TavilySearch(
+    max_results=3,
+    topic="general",
+    include_images=True,
+)
 
 llm = ChatOpenAI(
     model="GPT-4o-mini",
@@ -62,14 +66,23 @@ def search_web(query: str) -> str:
 def create_vectors(vector_store, laptops, namespace):
     documents = []
     for i, laptop in enumerate(laptops):
+
+        metadata = laptop.get("metadata", {})
+
         doc = Document(
-            page_content=laptop["title"],
+            page_content=f"""
+                {laptop["price_usd"]} to get {laptop["product_name"]} from {laptop["provider"]}
+                with {laptop["specs"]}
+                for {laptop["recommendation"]}
+            """,
             metadata={
-                "title": laptop["title"],
-                "specs": [s.strip() for s in laptop["specs"].split(',')],
-                "usage": laptop["usage"],
-                "price": laptop["price"],
-                "year": laptop["year"],
+                "category": metadata.get("category", "NA"),
+                "brand": metadata.get("brand", "NA"),
+                "model": metadata.get("model", "NA"),
+                "screen_size_inch": metadata.get("screen_size_inch", "NA"),
+                "resolution": str(metadata.get("resolution", "NA")),
+                "release_year": metadata.get("release_year", "NA"),
+                "provider": metadata.get("provider", "NA"),
             }
         )
         documents.append(doc)
@@ -166,68 +179,6 @@ session_state = {
 }
 
 
-def question_answering(user_query, retrieve_result):
-    print(f"retrieve_result: {retrieve_result}")
-    qa_template = PromptTemplate.from_template("""
-        You're a helpful and friendly AI assistant helping someone choose the best **cellphone or laptop**.
-
-        First, read the user's request:
-        "{user_query}"
-
-        Previous conversation:
-        {history}
-
-        Previously recommended options:
-        {retrieve_result_history}
-
-        Here are the most relevant options I found:
-        {laptop_context}
-
-        ---
-
-        Instructions:
-        - If the user's request is unclear, just a greeting (e.g., "hello", "hi", "how are you"), or not specific to laptops/phones, respond in a warm and welcoming way and ask them to tell you more about what they're looking for.
-        - If none of the laptops/cellphones in the context really match the user's request, be honest and say:
-        > "I couldn’t find an exact match, but here are a few options that might still interest you!"
-        - Otherwise, explain why each option could be suitable, and then **recommend one as the best fit**.
-
-        Use a friendly tone and speak like you're helping a friend shop.
-    """)
-
-    last_two = session_state["message_history"][-2:] if len(
-        session_state["message_history"]) >= 2 else session_state["message_history"]
-
-    formatted_history = ""
-    for msg in last_two:
-        if isinstance(msg, HumanMessage):
-            formatted_history += f"User: {msg.content}\n"
-        elif isinstance(msg, AIMessage):
-            formatted_history += f"Assistant: {msg.content}\n"
-
-    retrieved_docs = retrieve_result.invoke(user_query)
-
-    formatted_retrieved = format_docs(retrieved_docs)
-    formatted_history_retrieved = format_docs(
-        session_state["retrieve_result_history"]) if session_state["retrieve_result_history"] else "None"
-
-    print(f"formatted_history_retrieved: {formatted_history_retrieved}")
-
-    rag_chain = ({"laptop_context": lambda _: formatted_retrieved,
-                  "user_query": RunnablePassthrough(),
-                  "retrieve_result_history": lambda _: formatted_history_retrieved,
-                  "history": lambda _: formatted_history}) | qa_template | llm
-
-    response = rag_chain.invoke(user_query).content
-
-    session_state["retrieve_result_history"] = retrieved_docs
-    session_state["message_history"].append(
-        HumanMessage(content=user_query))  # type: ignore
-    session_state["message_history"].append(
-        AIMessage(content=response))  # type: ignore
-
-    return response
-
-
 def create_and_import_db(namespace):
     is_exist = True
     if namespace not in pc.list_indexes().names():
@@ -280,11 +231,57 @@ def retrieve_node(state: ChatState) -> ChatState:
     return state
 
 
+# def tavily_search_node(state: ChatState) -> ChatState:
+#     state["retrieved_docs"]
+
+#     query = state["user_query"]
+#     web_result = search_web(query)
+#     # save result for use in generate_answer
+#     state["web_search"] = web_result["results"][:3]  # type: ignore
+#     state["current_step"] = "generate_answer"
+#     return state
+
+def should_trust_retrieved_docs(query, docs) -> bool:
+    context = format_docs(docs)
+    system_prompt = """
+    You are a helpful assistant. A user has asked a question, and you have some documents retrieved from a database.
+    Your job is to judge whether these documents are likely to be relevant to answering the user query.
+
+    Respond with only "YES" if the documents clearly match the intent of the user query with high relevance (>= 0.5).
+    Respond with "NO" if the content seems irrelevant, off-topic, or weakly related to the user query.
+    """
+
+    user_prompt = f"""
+    User Query:
+    {query}
+
+    Retrieved Docs:
+    {context}
+    """
+
+    result = llm.invoke([
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": user_prompt},
+    ])
+
+    print(f"result.content.upper(){result.content.upper()}")  # type: ignore
+
+    return "YES" in result.content.upper()  # type: ignore
+
+# Updated tavily_search_node with check
+
+
 def tavily_search_node(state: ChatState) -> ChatState:
     query = state["user_query"]
-    web_result = search_web(query)
-    # save result for use in generate_answer
-    state["web_search"] = web_result["results"][:2]  # type: ignore
+    docs = state.get("retrieved_docs", [])
+
+    # Check if retrieved docs are trustworthy
+    if not docs or not should_trust_retrieved_docs(query, docs):
+        web_result = search_web(query)
+        state["web_search"] = web_result["results"][:3]  # type: ignore
+    else:
+        state["web_search"] = []  # type: ignore
+
     state["current_step"] = "generate_answer"
     return state
 
@@ -327,12 +324,13 @@ def generate_answer_node(state: ChatState) -> ChatState:
     web_info = state["web_search"]
     # Format docs and message history
     formatted_docs = format_docs(docs)
+    print(f"formatted_docs: {formatted_docs}")
     formatted_history = "\n".join(
         f"{'User' if isinstance(m, HumanMessage) else 'Assistant'}: {m.content}"
         for m in state["conversation"]
     )
 
-    print(f"web_info {format_web_info(web_info)}")
+    print(f"web_info {web_info}")
 
     rag_chain = ({"laptop_context": lambda _: formatted_docs,
                   "user_query": RunnablePassthrough(),

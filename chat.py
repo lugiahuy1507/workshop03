@@ -2,13 +2,13 @@ import streamlit as st
 from datetime import datetime
 import logging
 import time
-from main import extract_filter_from_query, retrieve, question_answering, PineconeVectorStore, pc, embeddingModel, create_and_import_db  # Adjust as needed
 from langchain_core.messages import HumanMessage, AIMessage
 from langgraph.graph.message import add_messages
 from typing import TypedDict, Annotated
 from langchain_core.documents import Document
 from main import (
-    define_workflow
+    define_workflow,
+    create_and_import_db
 )
 
 namespace = "laptop-index"
@@ -79,7 +79,7 @@ def handle_user_input(user_input: str, chat_app):
 def display_chat_interface(chat_app):
     st.markdown("""
         <div class="chat-header">
-            <h1>💻 The Gioi Di Dong Recommender</h1>
+            <h1>💻 The Gioi Di Dong</h1>
         </div>
     """, unsafe_allow_html=True)
 
