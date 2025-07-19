@@ -14,6 +14,11 @@ from langchain_core.documents import Document
 from langchain.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.messages import AIMessage, HumanMessage
+from typing import TypedDict, Annotated
+from langgraph.graph.message import add_messages
+from langchain_core.documents import Document
+from langgraph.graph import StateGraph, END
+
 
 os.environ["OPENAI_API_KEY"] = "sk-apxTWWhdEMvQr1PMX3Wy1Q"
 
@@ -231,3 +236,98 @@ def create_and_import_db(namespace):
             create_vectors(vector_store, data, namespace)
 
     return vector_store
+
+
+class ChatState(TypedDict):
+    conversation: Annotated[list, add_messages]
+    retrieved_docs: list[Document]
+    user_query: str
+    last_filter: dict
+    current_step: str
+
+
+def extract_filter_node(state: ChatState) -> ChatState:
+    query = state["conversation"][-1].content
+    print(f"query {query}")
+    filter_dict = extract_filter_from_query(query)
+    print(f"filter_dict {filter_dict}")
+    state["user_query"] = query
+    state["last_filter"] = filter_dict
+    state["current_step"] = "retrieve"
+    return state
+
+
+def retrieve_node(state: ChatState) -> ChatState:
+    vector_store = create_and_import_db("laptop-index")
+    retriever = retrieve(vector_store, top_k=3, filter=state["last_filter"])
+    docs = retriever.invoke(state["user_query"])
+    state["retrieved_docs"] = docs
+    state["current_step"] = "generate_answer"
+    return state
+
+
+qa_template = PromptTemplate.from_template("""
+        You're a helpful and friendly AI assistant helping someone choose the best **cellphone or laptop**.
+
+        First, read the user's request:
+        "{user_query}"
+
+        Previous conversation:
+        {history}
+
+        Previously recommended options:
+        {retrieve_result_history}
+
+        Here are the most relevant options I found:
+        {laptop_context}
+
+        ---
+
+        Instructions:
+        - If the user's request is unclear, just a greeting (e.g., "hello", "hi", "how are you"), or not specific to laptops/phones, respond in a warm and welcoming way and ask them to tell you more about what they're looking for.
+        - If none of the laptops/cellphones in the context really match the user's request, be honest and say:
+        > "I couldn’t find an exact match, but here are a few options that might still interest you!"
+        - Otherwise, explain why each option could be suitable, and then **recommend one as the best fit**.
+
+        Use a friendly tone and speak like you're helping a friend shop.
+    """)
+
+
+def generate_answer_node(state: ChatState) -> ChatState:
+    query = state["user_query"]
+    docs = state["retrieved_docs"]
+
+    # Format docs and message history
+    formatted_docs = format_docs(docs)
+    formatted_history = "\n".join(
+        f"{'User' if isinstance(m, HumanMessage) else 'Assistant'}: {m.content}"
+        for m in state["conversation"]
+    )
+
+    rag_chain = ({"laptop_context": lambda _: formatted_docs,
+                  "user_query": RunnablePassthrough(),
+                  "retrieve_result_history": lambda _: format_docs(docs),
+                  "history": lambda _: formatted_history}) | qa_template | llm
+
+    response = rag_chain.invoke(query).content
+    state["conversation"].append(AIMessage(content=response))
+    state["current_step"] = "done"
+    return state
+
+
+def route(state: ChatState) -> str:
+    return state["current_step"]
+
+
+def define_workflow():
+    graph = StateGraph(ChatState)
+    graph.add_node("extract_filter", extract_filter_node)
+    graph.add_node("retrieve", retrieve_node)
+    graph.add_node("generate_answer", generate_answer_node)
+
+    graph.set_entry_point("extract_filter")
+    graph.add_conditional_edges("extract_filter", route, ["retrieve"])
+    graph.add_conditional_edges("retrieve", route, ["generate_answer"])
+    graph.add_edge("generate_answer", END)
+
+    return graph.compile()

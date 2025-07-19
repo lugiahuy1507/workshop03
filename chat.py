@@ -3,6 +3,13 @@ from datetime import datetime
 import logging
 import time
 from main import extract_filter_from_query, retrieve, question_answering, PineconeVectorStore, pc, embeddingModel, create_and_import_db  # Adjust as needed
+from langchain_core.messages import HumanMessage, AIMessage
+from langgraph.graph.message import add_messages
+from typing import TypedDict, Annotated
+from langchain_core.documents import Document
+from main import (
+    define_workflow
+)
 
 namespace = "laptop-index"
 # Initialize Pinecone and vector store
@@ -34,56 +41,49 @@ def apply_modern_minimalist_css():
     </style>
     """, unsafe_allow_html=True)
 
-# --- Init State ---
-
 
 def initialize_session_state():
-    if "chat_history" not in st.session_state:
-        st.session_state.chat_history = []
-
-# --- Handle User Input ---
+    if "conversation" not in st.session_state:
+        st.session_state.conversation = []
 
 
-def handle_user_input(user_input, vector_store):
+class ChatState(TypedDict):
+    conversation: Annotated[list, add_messages]
+    retrieved_docs: list[Document]
+    user_query: str
+    last_filter: dict
+    current_step: str
+
+
+def handle_user_input(user_input: str, chat_app):
     if not user_input.strip():
         return
+    st.session_state.conversation.append(HumanMessage(content=user_input))
 
-    st.session_state.chat_history.append({
-        "role": "user",
-        "content": user_input,
-        "timestamp": datetime.now()
-    })
-
-    with st.spinner("Thinking..."):
-        try:
-            filter_query = extract_filter_from_query(user_input)
-            results = retrieve(vector_store, top_k=3, filter=filter_query)
-            ai_response = question_answering(user_input, results)
-
-            st.session_state.chat_history.append({
-                "role": "assistant",
-                "content": ai_response,
-                "timestamp": datetime.now()
-            })
-        except Exception as e:
-            logger.error(str(e))
-            st.session_state.chat_history.append({
-                "role": "assistant",
-                "content": "⚠️ Sorry, something went wrong while processing your request.",
-                "timestamp": datetime.now()
-            })
-
-# --- Display Interface ---
+    try:
+        state: ChatState = {
+            "conversation": st.session_state.conversation,
+            "retrieved_docs": [],
+            "user_query": "",
+            "last_filter": {},
+            "current_step": "extract_filter"
+        }
+        state = chat_app.invoke(state)
+        st.session_state.conversation = state["conversation"]
+    except Exception as e:
+        st.session_state.conversation.append(
+            AIMessage(content="⚠️ Sorry, something went wrong.")
+        )
 
 
-def display_chat_interface():
+def display_chat_interface(chat_app):
     st.markdown("""
         <div class="chat-header">
             <h1>💻 The Gioi Di Dong Recommender</h1>
         </div>
     """, unsafe_allow_html=True)
 
-    if not st.session_state.chat_history:
+    if not st.session_state.conversation:
         st.markdown("""
             <div class="welcome-assistant">
                 👋 Ask me anything about **Laptop** or **Cellphone** recommendations!<br>
@@ -95,29 +95,24 @@ def display_chat_interface():
             </div>
         """, unsafe_allow_html=True)
 
-    for msg in st.session_state.chat_history:
-        with st.chat_message(msg["role"], avatar="👨‍💻" if msg["role"] == "user" else "🤖"):
-            st.markdown(msg["content"])
-            st.caption(f"*{msg['timestamp'].strftime('%H:%M')}*")
+    for msg in st.session_state.conversation:
+        with st.chat_message("user" if isinstance(msg, HumanMessage) else "assistant"):
+            st.markdown(msg.content)
 
     user_input = st.chat_input("Type your anything needs...")
     if user_input:
-        with st.chat_message("user", avatar="👨‍💻"):
+        with st.chat_message("user"):
             st.markdown(user_input)
-        handle_user_input(user_input, vector_store)
+        handle_user_input(user_input, chat_app)
         st.rerun()
-
 # --- Main ---
 
 
 def main():
     initialize_session_state()
     apply_modern_minimalist_css()
-
-    namespace = "laptop-index"
-    vector_store = create_and_import_db(namespace)
-
-    display_chat_interface()
+    chat_app = define_workflow()
+    display_chat_interface(chat_app)
 
 
 if __name__ == "__main__":
