@@ -21,8 +21,23 @@ from langgraph.graph import StateGraph, END
 from langchain_tavily import TavilySearch
 
 
+# Setup logging
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+#set logging pattern timestamp file:line message
+formatter = logging.Formatter('%(asctime)s - %(filename)s:%(lineno)d - %(levelname)s - %(message)s')
+console_handler = logging.StreamHandler()
+# Set logging to file
+file_handler = logging.FileHandler('app.log')
+console_handler.setFormatter(formatter)
+file_handler.setFormatter(formatter)
+logger.addHandler(console_handler)
+logger.addHandler(file_handler)
+
+
 os.environ["OPENAI_API_KEY"] = "sk-apxTWWhdEMvQr1PMX3Wy1Q"
-os.environ["TAVILY_API_KEY"] = "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"
+os.environ["TAVILY_API_KEY"] = "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"
 
 tavily_api = TavilySearch()
 
@@ -39,7 +54,7 @@ clientEmbedding = OpenAI(
 )
 
 clientGPT4 = OpenAI(base_url="https://aiportalapi.stu-platform.live/jpe",
-                    api_key="sk-JkSdnK4_AkRYI-AxStZwYA")
+                    api_key="sk-WTGn3uqXmRn3Heq0-hbF4Q")
 
 embeddingModel = OpenAIEmbeddings(
     model="text-embedding-3-small",
@@ -143,6 +158,35 @@ def extract_filter_from_query(user_query):
 
     return pinecone_filter
 
+def extract_filter_from_search_result(user_query, search_result):
+    """
+    Extract relevant keywords from web search results.
+    """
+    system_prompt = """
+        You are a smart assistant that extracts relevant information from web search results.
+
+        Your task is to extract and summarize the key specifications and features mentioned in the search results.
+        Example:
+        User query: "What are the best laptops for gaming?"
+        Web search results: "The latest gaming laptops include NVIDIA RTX 3080, Intel i7 processors, and 16GB RAM. Prices start at $1500."
+        Expected output: "NVIDIA RTX 3080, Intel i7 processors, 16GB RAM, starting at $1500."
+    """
+
+    user_prompt = f"""
+        User query: {user_query}
+        Extract relevant keywords from the following web search results:
+        {search_result}
+    """
+
+    response = clientGPT4.chat.completions.create(
+        model="GPT-4o-mini",
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
+    )
+    return response.choices[0].message.content.strip()
+
 
 def format_docs(docs):
     return "\n".join([
@@ -167,7 +211,7 @@ session_state = {
 
 
 def question_answering(user_query, retrieve_result):
-    print(f"retrieve_result: {retrieve_result}")
+    logger.info(f"retrieve_result: {retrieve_result}")
     qa_template = PromptTemplate.from_template("""
         You're a helpful and friendly AI assistant helping someone choose the best **cellphone or laptop**.
 
@@ -210,7 +254,7 @@ def question_answering(user_query, retrieve_result):
     formatted_history_retrieved = format_docs(
         session_state["retrieve_result_history"]) if session_state["retrieve_result_history"] else "None"
 
-    print(f"formatted_history_retrieved: {formatted_history_retrieved}")
+    logger.info(f"formatted_history_retrieved: {formatted_history_retrieved}")
 
     rag_chain = ({"laptop_context": lambda _: formatted_retrieved,
                   "user_query": RunnablePassthrough(),
@@ -252,42 +296,96 @@ def create_and_import_db(namespace):
 
     return vector_store
 
+def sematic_rerank(query: str, docs: list[Document], threshold: float = 0.5):
+    """
+    Rerank the retrieved documents based on their relevance to the user query.
+    """
+    embeddings = embeddingModel.embed_documents([doc.page_content for doc in docs])
+    query_embedding = embeddingModel.embed_query(query)
+    distances = distance.cdist([query_embedding], embeddings, "cosine")[0]
+    # convert distance to percentage confidence
+    confidence_scores = [1 - dist for dist in distances]
+    sorted_docs = sorted(zip(docs, confidence_scores), key=lambda x: x[1])
+    true_relevant = [doc[0] for doc in sorted_docs if doc[1] > threshold]
+    logger.info(f"Confidence scores: {confidence_scores}")
+    logger.info(f"Reranked {len(true_relevant)} documents with confidence above {threshold}")
+    return true_relevant
 
 class ChatState(TypedDict):
     conversation: Annotated[list, add_messages]
     retrieved_docs: list[Document]
+    reranked_docs: list[Document]
     user_query: str
     last_filter: dict
     current_step: str
     web_search: str
-
+    retrieve_keywords: str
 
 def extract_filter_node(state: ChatState) -> ChatState:
-    query = state["conversation"][-1].content
-    filter_dict = extract_filter_from_query(query)
-    state["user_query"] = query
-    state["last_filter"] = filter_dict
-    state["current_step"] = "retrieve"
+    logger.info(f"Enter node 'extract_filter' with state: {state}")
+    try:
+        query = state["conversation"][-1].content if state["conversation"] else ""
+        filter_dict = extract_filter_from_query(query)
+        state["user_query"] = query
+        state["retrieve_keywords"] = query
+        state["last_filter"] = filter_dict
+        state["web_search"] = ""
+        state["retrieved_docs"] = ""
+        state["reranked_docs"] = ""
+        state["current_step"] = "retrieve"
+    except Exception as e:
+        logger.error(f"Error occurred while extracting filter: {e}")
     return state
 
 
 def retrieve_node(state: ChatState) -> ChatState:
+    logger.info(f"Enter node 'retrieve' with state: {state}")
     vector_store = create_and_import_db("laptop-index")
     retriever = retrieve(vector_store, top_k=3, filter=state["last_filter"])
     docs = retriever.invoke(state["user_query"])
     state["retrieved_docs"] = docs
-    state["current_step"] = "tavily_search"
+    state["current_step"] = "rerank"
+    
     return state
 
 
 def tavily_search_node(state: ChatState) -> ChatState:
+    logger.info(f"Enter node 'tavily_search' with state: {state}")
     query = state["user_query"]
     web_result = search_web(query)
     # save result for use in generate_answer
-    state["web_search"] = web_result["results"][:2]  # type: ignore
-    state["current_step"] = "generate_answer"
+    try:
+        logger.info(f"Web search results: {web_result}")
+        state["web_search"] = web_result["results"][:2]  # type: ignore
+    except Exception as e:
+        logger.error(f"Error occurred while searching the web: {e}")
+    state["current_step"] = "extract_search_result"
     return state
 
+
+def rerank_node(state: ChatState) -> ChatState:
+    logger.info(f"Enter node 'rerank' with state: {state}")
+    if not state["retrieved_docs"]:
+        state["reranked_docs"] = []
+    else:
+        state["reranked_docs"] = sematic_rerank(
+            state["user_query"], state["retrieved_docs"], threshold=0.45)
+
+    if len(state["reranked_docs"]) == 0:
+        state["current_step"] = "tavily_search"
+    else:
+        state["current_step"] = "generate_answer"
+    return state
+
+def extract_search_result_node(state: ChatState) -> ChatState:
+    logger.info(f"Enter node 'extract_search_result' with state: {state}")
+    """
+    Extract relevant keywords from web search results.
+    """
+    state["retrieve_keywords"] = extract_filter_from_search_result(
+        state["user_query"], state["web_search"])
+    state["current_step"] = "retrieve"
+    return state
 
 qa_template = PromptTemplate.from_template("""
         You're a helpful and friendly AI assistant helping someone choose the best **cellphone or laptop**.
@@ -316,14 +414,15 @@ qa_template = PromptTemplate.from_template("""
         - If web_info includes additional specs, reviews, or options, feel free to include them to enhance your response.
         - Clearly explain why each option is relevant.
         - End by confidently recommending **one device as the best fit**, using a friendly, helpful tone — as if you're giving advice to a friend.
+        - Introduce to user about our product (at <Previously recommended options>) to help them make a decision.
 
         Use a friendly tone and speak like you're helping a friend shop.
     """)
 
-
 def generate_answer_node(state: ChatState) -> ChatState:
+    logger.info(f"Enter node 'generate_answer' with state: {state}")
     query = state["user_query"]
-    docs = state["retrieved_docs"]
+    docs = state["reranked_docs"] if state["reranked_docs"] else state["retrieved_docs"]
     web_info = state["web_search"]
     # Format docs and message history
     formatted_docs = format_docs(docs)
@@ -332,7 +431,7 @@ def generate_answer_node(state: ChatState) -> ChatState:
         for m in state["conversation"]
     )
 
-    print(f"web_info {format_web_info(web_info)}")
+    logger.info(f"web_info {format_web_info(web_info)}")
 
     rag_chain = ({"laptop_context": lambda _: formatted_docs,
                   "user_query": RunnablePassthrough(),
@@ -354,13 +453,16 @@ def define_workflow():
     graph = StateGraph(ChatState)
     graph.add_node("extract_filter", extract_filter_node)
     graph.add_node("retrieve", retrieve_node)
+    graph.add_node("rerank", rerank_node)
     graph.add_node("tavily_search", tavily_search_node)
     graph.add_node("generate_answer", generate_answer_node)
+    graph.add_node("extract_search_result", extract_search_result_node)
 
     graph.set_entry_point("extract_filter")
     graph.add_conditional_edges("extract_filter", route, ["retrieve"])
-    graph.add_conditional_edges("retrieve", route, ["tavily_search"])
-    graph.add_conditional_edges("tavily_search", route, ["generate_answer"])
+    graph.add_conditional_edges("retrieve", route, ["rerank"])
+    graph.add_conditional_edges("tavily_search", route, ["extract_search_result"])
+    graph.add_conditional_edges("extract_search_result", route, ["retrieve"])
+    graph.add_conditional_edges("rerank", route, {"tavily_search": "tavily_search", "generate_answer": "generate_answer"})
     graph.add_edge("generate_answer", END)
-
     return graph.compile()
